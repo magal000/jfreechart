@@ -43,11 +43,13 @@ package org.jfree.chart.renderer;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.jfree.data.DomainOrder;
-import org.jfree.data.xy.DefaultXYDataset;
-import org.jfree.data.xy.XYSeries;
-import org.jfree.data.xy.XYSeriesCollection;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.renderer.RendererUtils;
+import se.malmin.data.DomainOrder;
+import se.malmin.data.xy.DefaultXYDataset;
+import se.malmin.data.xy.XYSeries;
+import se.malmin.data.xy.XYSeriesCollection;
 
 /**
  * Some checks for the {@link RendererUtils} class.

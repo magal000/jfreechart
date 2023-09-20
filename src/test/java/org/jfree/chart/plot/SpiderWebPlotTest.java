@@ -50,17 +50,20 @@ import java.awt.Rectangle;
 import java.awt.geom.Rectangle2D;
 import java.awt.image.BufferedImage;
 import java.text.DecimalFormat;
-import org.jfree.chart.JFreeChart;
-import org.jfree.chart.LegendItem;
-import org.jfree.chart.LegendItemCollection;
+
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.labels.StandardCategoryItemLabelGenerator;
-import org.jfree.chart.labels.StandardCategoryToolTipGenerator;
-import org.jfree.chart.urls.StandardCategoryURLGenerator;
-import org.jfree.chart.util.Rotation;
-import org.jfree.chart.util.TableOrder;
-import org.jfree.data.category.DefaultCategoryDataset;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.JFreeChart;
+import se.malmin.chart.LegendItem;
+import se.malmin.chart.LegendItemCollection;
+import se.malmin.chart.labels.StandardCategoryItemLabelGenerator;
+import se.malmin.chart.labels.StandardCategoryToolTipGenerator;
+import se.malmin.chart.plot.SpiderWebPlot;
+import se.malmin.chart.urls.StandardCategoryURLGenerator;
+import se.malmin.chart.util.Rotation;
+import se.malmin.chart.util.TableOrder;
+import se.malmin.data.category.DefaultCategoryDataset;
 
 /**
  * Tests for the {@link SpiderWebPlot} class.

@@ -43,6 +43,8 @@ package org.jfree.chart.imagemap;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 
+import se.malmin.chart.imagemap.StandardToolTipTagFragmentGenerator;
+
 /**
  * Tests for the {@link StandardToolTipTagFragmentGenerator} class.
  */

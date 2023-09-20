@@ -54,13 +54,14 @@ import java.awt.Color;
 import java.util.Date;
 
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.util.PublicCloneable;
-
-import org.jfree.data.Range;
-import org.jfree.data.xy.DefaultOHLCDataset;
-import org.jfree.data.xy.OHLCDataItem;
-import org.jfree.data.xy.OHLCDataset;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.renderer.xy.HighLowRenderer;
+import se.malmin.chart.util.PublicCloneable;
+import se.malmin.data.Range;
+import se.malmin.data.xy.DefaultOHLCDataset;
+import se.malmin.data.xy.OHLCDataItem;
+import se.malmin.data.xy.OHLCDataset;
 
 /**
  * Tests for the {@link HighLowRenderer} class.

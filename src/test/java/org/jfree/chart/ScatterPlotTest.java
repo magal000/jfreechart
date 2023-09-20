@@ -49,19 +49,22 @@ import java.awt.Graphics2D;
 import java.awt.geom.Rectangle2D;
 import java.awt.image.BufferedImage;
 
-import org.jfree.chart.axis.ValueAxis;
-import org.jfree.chart.event.ChartChangeEvent;
-import org.jfree.chart.event.ChartChangeListener;
-import org.jfree.chart.labels.StandardXYToolTipGenerator;
-import org.jfree.chart.labels.XYToolTipGenerator;
-import org.jfree.chart.plot.XYPlot;
-import org.jfree.chart.renderer.xy.XYItemRenderer;
-import org.jfree.data.Range;
-import org.jfree.data.xy.XYDataset;
-import org.jfree.data.xy.XYSeries;
-import org.jfree.data.xy.XYSeriesCollection;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.ChartFactory;
+import se.malmin.chart.JFreeChart;
+import se.malmin.chart.axis.ValueAxis;
+import se.malmin.chart.event.ChartChangeEvent;
+import se.malmin.chart.event.ChartChangeListener;
+import se.malmin.chart.labels.StandardXYToolTipGenerator;
+import se.malmin.chart.labels.XYToolTipGenerator;
+import se.malmin.chart.plot.XYPlot;
+import se.malmin.chart.renderer.xy.XYItemRenderer;
+import se.malmin.data.Range;
+import se.malmin.data.xy.XYDataset;
+import se.malmin.data.xy.XYSeries;
+import se.malmin.data.xy.XYSeriesCollection;
 
 /**
  * Tests for a scatter plot.

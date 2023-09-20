@@ -49,18 +49,21 @@ import java.awt.geom.Rectangle2D;
 import java.awt.image.BufferedImage;
 import java.util.List;
 
-import org.jfree.chart.JFreeChart;
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.axis.CategoryAxis;
-import org.jfree.chart.axis.NumberAxis;
-import org.jfree.chart.event.ChartChangeEvent;
-import org.jfree.chart.event.ChartChangeListener;
-import org.jfree.chart.labels.StandardCategoryToolTipGenerator;
-import org.jfree.chart.renderer.category.BarRenderer;
-import org.jfree.chart.renderer.category.LineAndShapeRenderer;
-import org.jfree.data.category.CategoryDataset;
-import org.jfree.data.category.DefaultCategoryDataset;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.JFreeChart;
+import se.malmin.chart.axis.CategoryAxis;
+import se.malmin.chart.axis.NumberAxis;
+import se.malmin.chart.event.ChartChangeEvent;
+import se.malmin.chart.event.ChartChangeListener;
+import se.malmin.chart.labels.StandardCategoryToolTipGenerator;
+import se.malmin.chart.plot.CategoryPlot;
+import se.malmin.chart.plot.CombinedDomainCategoryPlot;
+import se.malmin.chart.renderer.category.BarRenderer;
+import se.malmin.chart.renderer.category.LineAndShapeRenderer;
+import se.malmin.data.category.CategoryDataset;
+import se.malmin.data.category.DefaultCategoryDataset;
 
 /**
  * Tests for the {@link CombinedDomainCategoryPlot} class.

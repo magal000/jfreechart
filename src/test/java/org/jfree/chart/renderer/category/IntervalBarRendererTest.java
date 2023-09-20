@@ -48,15 +48,18 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.junit.jupiter.api.Assertions.fail;
 
-import org.jfree.chart.JFreeChart;
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.axis.CategoryAxis;
-import org.jfree.chart.axis.NumberAxis;
-import org.jfree.chart.plot.CategoryPlot;
-import org.jfree.chart.util.PublicCloneable;
-import org.jfree.data.Range;
-import org.jfree.data.category.DefaultIntervalCategoryDataset;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.JFreeChart;
+import se.malmin.chart.axis.CategoryAxis;
+import se.malmin.chart.axis.NumberAxis;
+import se.malmin.chart.plot.CategoryPlot;
+import se.malmin.chart.renderer.category.BarRenderer;
+import se.malmin.chart.renderer.category.IntervalBarRenderer;
+import se.malmin.chart.util.PublicCloneable;
+import se.malmin.data.Range;
+import se.malmin.data.category.DefaultIntervalCategoryDataset;
 
 /**
  * Tests for the {@link IntervalBarRenderer} class.

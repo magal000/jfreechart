@@ -59,6 +59,38 @@ import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 import org.junit.jupiter.api.Test;
 
+import se.malmin.chart.ChartFactory;
+import se.malmin.chart.JFreeChart;
+import se.malmin.chart.LegendItem;
+import se.malmin.chart.LegendItemCollection;
+import se.malmin.chart.annotations.CategoryLineAnnotation;
+import se.malmin.chart.annotations.CategoryTextAnnotation;
+import se.malmin.chart.axis.AxisLocation;
+import se.malmin.chart.axis.AxisSpace;
+import se.malmin.chart.axis.CategoryAnchor;
+import se.malmin.chart.axis.CategoryAxis;
+import se.malmin.chart.axis.NumberAxis;
+import se.malmin.chart.event.MarkerChangeListener;
+import se.malmin.chart.plot.CategoryMarker;
+import se.malmin.chart.plot.CategoryPlot;
+import se.malmin.chart.plot.DatasetRenderingOrder;
+import se.malmin.chart.plot.IntervalMarker;
+import se.malmin.chart.plot.Marker;
+import se.malmin.chart.plot.PlotOrientation;
+import se.malmin.chart.plot.ValueMarker;
+import se.malmin.chart.renderer.category.AreaRenderer;
+import se.malmin.chart.renderer.category.BarRenderer;
+import se.malmin.chart.renderer.category.CategoryItemRenderer;
+import se.malmin.chart.renderer.category.DefaultCategoryItemRenderer;
+import se.malmin.chart.renderer.category.LineAndShapeRenderer;
+import se.malmin.chart.ui.Layer;
+import se.malmin.chart.ui.RectangleInsets;
+import se.malmin.chart.util.DefaultShadowGenerator;
+import se.malmin.chart.util.SortOrder;
+import se.malmin.data.Range;
+import se.malmin.data.category.CategoryDataset;
+import se.malmin.data.category.DefaultCategoryDataset;
+
 import java.awt.BasicStroke;
 import java.awt.Color;
 import java.awt.GradientPaint;
@@ -71,31 +103,7 @@ import java.util.Arrays;
 import java.util.EventListener;
 import java.util.List;
 
-import org.jfree.chart.ChartFactory;
-import org.jfree.chart.JFreeChart;
-import org.jfree.chart.LegendItem;
-import org.jfree.chart.LegendItemCollection;
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.annotations.CategoryLineAnnotation;
-import org.jfree.chart.annotations.CategoryTextAnnotation;
-import org.jfree.chart.axis.AxisLocation;
-import org.jfree.chart.axis.AxisSpace;
-import org.jfree.chart.axis.CategoryAnchor;
-import org.jfree.chart.axis.CategoryAxis;
-import org.jfree.chart.axis.NumberAxis;
-import org.jfree.chart.event.MarkerChangeListener;
-import org.jfree.chart.renderer.category.AreaRenderer;
-import org.jfree.chart.renderer.category.BarRenderer;
-import org.jfree.chart.renderer.category.CategoryItemRenderer;
-import org.jfree.chart.renderer.category.DefaultCategoryItemRenderer;
-import org.jfree.chart.renderer.category.LineAndShapeRenderer;
-import org.jfree.chart.ui.Layer;
-import org.jfree.chart.ui.RectangleInsets;
-import org.jfree.chart.util.DefaultShadowGenerator;
-import org.jfree.chart.util.SortOrder;
-import org.jfree.data.Range;
-import org.jfree.data.category.CategoryDataset;
-import org.jfree.data.category.DefaultCategoryDataset;
 
 /**
  * Tests for the {@link CategoryPlot} class.

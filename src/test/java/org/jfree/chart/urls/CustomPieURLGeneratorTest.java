@@ -49,9 +49,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.util.PublicCloneable;
-
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.urls.CustomPieURLGenerator;
+import se.malmin.chart.util.PublicCloneable;
 
 /**
  * Tests for the {@link CustomPieURLGenerator} class.

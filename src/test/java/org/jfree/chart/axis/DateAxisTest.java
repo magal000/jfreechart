@@ -56,6 +56,22 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Test;
 
+import se.malmin.chart.axis.AxisState;
+import se.malmin.chart.axis.DateAxis;
+import se.malmin.chart.axis.DateTick;
+import se.malmin.chart.axis.DateTickMarkPosition;
+import se.malmin.chart.axis.DateTickUnit;
+import se.malmin.chart.axis.DateTickUnitType;
+import se.malmin.chart.ui.RectangleEdge;
+import se.malmin.data.time.DateRange;
+import se.malmin.data.time.Day;
+import se.malmin.data.time.Hour;
+import se.malmin.data.time.Millisecond;
+import se.malmin.data.time.Minute;
+import se.malmin.data.time.Month;
+import se.malmin.data.time.Second;
+import se.malmin.data.time.Year;
+
 import java.awt.Graphics2D;
 import java.awt.geom.Rectangle2D;
 import java.awt.image.BufferedImage;
@@ -69,16 +85,6 @@ import java.util.Locale;
 import java.util.TimeZone;
 
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.ui.RectangleEdge;
-
-import org.jfree.data.time.DateRange;
-import org.jfree.data.time.Day;
-import org.jfree.data.time.Hour;
-import org.jfree.data.time.Millisecond;
-import org.jfree.data.time.Minute;
-import org.jfree.data.time.Month;
-import org.jfree.data.time.Second;
-import org.jfree.data.time.Year;
 
 /**
  * Tests for the {@link DateAxis} class.

@@ -49,6 +49,8 @@ import java.util.Date;
 import org.jfree.chart.TestUtils;
 import org.junit.jupiter.api.Test;
 
+import se.malmin.data.xy.OHLCDataItem;
+
 /**
  * Tests for the {@link OHLCDataItem} class.
  */

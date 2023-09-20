@@ -54,9 +54,10 @@ import java.text.NumberFormat;
 import java.text.SimpleDateFormat;
 
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.util.PublicCloneable;
-
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.labels.StandardXYItemLabelGenerator;
+import se.malmin.chart.util.PublicCloneable;
 
 /**
  * Tests for the {@link StandardXYItemLabelGenerator} class.

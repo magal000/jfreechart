@@ -47,9 +47,11 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import java.awt.geom.Rectangle2D;
 
 import org.jfree.chart.TestUtils;
-
-import org.jfree.data.general.DefaultPieDataset;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.entity.PieSectionEntity;
+import se.malmin.chart.entity.StandardEntityCollection;
+import se.malmin.data.general.DefaultPieDataset;
 
 /**
  * Tests for the {@link StandardEntityCollection} class.

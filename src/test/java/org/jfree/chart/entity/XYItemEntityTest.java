@@ -47,9 +47,10 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import java.awt.geom.Rectangle2D;
 
 import org.jfree.chart.TestUtils;
-
-import org.jfree.data.time.TimeSeriesCollection;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.entity.XYItemEntity;
+import se.malmin.data.time.TimeSeriesCollection;
 
 /**
  * Tests for the {@link XYItemEntity} class.

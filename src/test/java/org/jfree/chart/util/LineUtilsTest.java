@@ -43,6 +43,9 @@ package org.jfree.chart.util;
 import java.awt.geom.Line2D;
 import java.awt.geom.Rectangle2D;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.util.LineUtils;
+
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 /**

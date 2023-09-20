@@ -52,9 +52,10 @@ import java.awt.GradientPaint;
 import java.awt.geom.Rectangle2D;
 
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.util.PublicCloneable;
-
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.annotations.XYShapeAnnotation;
+import se.malmin.chart.util.PublicCloneable;
 
 /**
  * Some tests for the {@link XYShapeAnnotation} class.

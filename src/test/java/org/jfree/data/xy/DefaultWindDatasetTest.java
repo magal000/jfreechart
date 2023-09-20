@@ -46,11 +46,12 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.util.PublicCloneable;
-
-import org.jfree.data.time.Day;
-import org.jfree.data.time.RegularTimePeriod;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.util.PublicCloneable;
+import se.malmin.data.time.Day;
+import se.malmin.data.time.RegularTimePeriod;
+import se.malmin.data.xy.DefaultWindDataset;
 
 /**
  * Tests for {@link DefaultWindDataset}.

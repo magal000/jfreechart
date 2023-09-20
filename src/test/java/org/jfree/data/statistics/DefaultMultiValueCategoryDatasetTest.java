@@ -48,9 +48,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.jfree.chart.TestUtils;
-
-import org.jfree.data.UnknownKeyException;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.data.UnknownKeyException;
+import se.malmin.data.statistics.DefaultMultiValueCategoryDataset;
 
 /**
  * Tests for the {@link DefaultMultiValueCategoryDataset} class.

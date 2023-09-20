@@ -47,6 +47,8 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import org.jfree.chart.TestUtils;
 import org.junit.jupiter.api.Test;
 
+import se.malmin.data.statistics.SimpleHistogramBin;
+
 /**
  * Tests for the {@link SimpleHistogramBin} class.
  */

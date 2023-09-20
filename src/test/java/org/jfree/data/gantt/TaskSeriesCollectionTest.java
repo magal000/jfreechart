@@ -45,9 +45,13 @@ package org.jfree.data.gantt;
 import java.util.Date;
 
 import org.jfree.chart.TestUtils;
-
-import org.jfree.data.time.SimpleTimePeriod;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.data.gantt.Task;
+import se.malmin.data.gantt.TaskSeries;
+import se.malmin.data.gantt.TaskSeriesCollection;
+import se.malmin.data.time.SimpleTimePeriod;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;

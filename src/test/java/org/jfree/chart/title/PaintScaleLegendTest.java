@@ -50,12 +50,13 @@ import java.awt.Color;
 import java.awt.GradientPaint;
 
 import org.jfree.chart.TestUtils;
-
-import org.jfree.chart.axis.AxisLocation;
-import org.jfree.chart.axis.NumberAxis;
-import org.jfree.chart.renderer.GrayPaintScale;
-import org.jfree.chart.renderer.LookupPaintScale;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.axis.AxisLocation;
+import se.malmin.chart.axis.NumberAxis;
+import se.malmin.chart.renderer.GrayPaintScale;
+import se.malmin.chart.renderer.LookupPaintScale;
+import se.malmin.chart.title.PaintScaleLegend;
 
 /**
  * Tests for the {@link PaintScaleLegend} class.

@@ -45,10 +45,11 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.ui.HorizontalAlignment;
-import org.jfree.chart.ui.VerticalAlignment;
-
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.block.FlowArrangement;
+import se.malmin.chart.ui.HorizontalAlignment;
+import se.malmin.chart.ui.VerticalAlignment;
 
 /**
  * Tests for the {@link FlowArrangement} class.

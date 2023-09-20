@@ -51,6 +51,8 @@ import java.awt.Color;
 import org.jfree.chart.TestUtils;
 import org.junit.jupiter.api.Test;
 
+import se.malmin.chart.renderer.GrayPaintScale;
+
 /**
  * Tests for the {@link GrayPaintScale} class.
  */

@@ -42,6 +42,10 @@ package org.jfree.data.general;
 
 import org.jfree.chart.TestUtils;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.data.general.DefaultKeyedValuesDataset;
+import se.malmin.data.general.KeyedValuesDataset;
+
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

@@ -48,12 +48,14 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.util.PublicCloneable;
-
-import org.jfree.data.Range;
-import org.jfree.data.xy.DefaultIntervalXYDataset;
-import org.jfree.data.xy.XYDataset;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.renderer.xy.AbstractXYItemRenderer;
+import se.malmin.chart.renderer.xy.ClusteredXYBarRenderer;
+import se.malmin.chart.util.PublicCloneable;
+import se.malmin.data.Range;
+import se.malmin.data.xy.DefaultIntervalXYDataset;
+import se.malmin.data.xy.XYDataset;
 
 /**
  * Tests for the {@link ClusteredXYBarRenderer} class.

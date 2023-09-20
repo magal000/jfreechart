@@ -54,9 +54,10 @@ import java.awt.GradientPaint;
 import java.text.DecimalFormat;
 
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.ui.RectangleInsets;
-
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.plot.ThermometerPlot;
+import se.malmin.chart.ui.RectangleInsets;
 
 /**
  * Tests for the {@link ThermometerPlot} class.

@@ -51,6 +51,8 @@ import java.awt.GradientPaint;
 import org.jfree.chart.TestUtils;
 import org.junit.jupiter.api.Test;
 
+import se.malmin.chart.plot.dial.DialTextAnnotation;
+
 /**
  * Tests for the {@link DialTextAnnotation} class.
  */

@@ -48,9 +48,10 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import java.text.DecimalFormat;
 
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.util.PublicCloneable;
-
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.labels.BoxAndWhiskerToolTipGenerator;
+import se.malmin.chart.util.PublicCloneable;
 
 /**
  * Tests for the {@link BoxAndWhiskerToolTipGenerator} class.

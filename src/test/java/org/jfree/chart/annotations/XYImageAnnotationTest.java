@@ -49,10 +49,12 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 
 import java.awt.Image;
 
-import org.jfree.chart.JFreeChart;
-import org.jfree.chart.ui.RectangleAnchor;
-import org.jfree.chart.util.PublicCloneable;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.JFreeChart;
+import se.malmin.chart.annotations.XYImageAnnotation;
+import se.malmin.chart.ui.RectangleAnchor;
+import se.malmin.chart.util.PublicCloneable;
 
 /**
  * Tests for the {@link XYImageAnnotation} class.

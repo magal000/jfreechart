@@ -48,9 +48,10 @@ import java.awt.BasicStroke;
 import java.awt.Color;
 
 import org.jfree.chart.TestUtils;
-
-import org.jfree.data.Range;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.plot.MeterInterval;
+import se.malmin.data.Range;
 
 /**
  * Tests for the {@link MeterInterval} class.

@@ -51,15 +51,17 @@ import java.awt.BasicStroke;
 import java.awt.Color;
 import java.awt.GradientPaint;
 
-import org.jfree.chart.JFreeChart;
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.axis.NumberAxis;
-import org.jfree.chart.plot.XYPlot;
-import org.jfree.chart.renderer.xy.XYLineAndShapeRenderer;
-import org.jfree.chart.util.PublicCloneable;
-import org.jfree.data.xy.DefaultTableXYDataset;
-import org.jfree.data.xy.XYSeries;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.JFreeChart;
+import se.malmin.chart.annotations.XYBoxAnnotation;
+import se.malmin.chart.axis.NumberAxis;
+import se.malmin.chart.plot.XYPlot;
+import se.malmin.chart.renderer.xy.XYLineAndShapeRenderer;
+import se.malmin.chart.util.PublicCloneable;
+import se.malmin.data.xy.DefaultTableXYDataset;
+import se.malmin.data.xy.XYSeries;
 
 /**
  * Some tests for the {@link XYBoxAnnotation} class.

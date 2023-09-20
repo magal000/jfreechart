@@ -45,6 +45,8 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.jfree.chart.TestUtils;
 import org.junit.jupiter.api.Test;
 
+import se.malmin.chart.needle.MiddlePinNeedle;
+
 /**
  * Tests for the {@link MiddlePinNeedle} class.
  */

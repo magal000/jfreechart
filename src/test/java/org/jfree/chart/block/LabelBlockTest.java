@@ -51,10 +51,11 @@ import java.awt.Font;
 import java.awt.GradientPaint;
 
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.text.TextBlockAnchor;
-import org.jfree.chart.ui.RectangleAnchor;
-
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.block.LabelBlock;
+import se.malmin.chart.text.TextBlockAnchor;
+import se.malmin.chart.ui.RectangleAnchor;
 
 /**
  * Some tests for the {@link LabelBlock} class.

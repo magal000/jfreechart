@@ -50,19 +50,23 @@ import java.awt.geom.Rectangle2D;
 import java.awt.image.BufferedImage;
 import java.util.List;
 
-import org.jfree.chart.JFreeChart;
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.annotations.XYTextAnnotation;
-import org.jfree.chart.axis.AxisLocation;
-import org.jfree.chart.axis.NumberAxis;
-import org.jfree.chart.event.ChartChangeEvent;
-import org.jfree.chart.event.ChartChangeListener;
-import org.jfree.chart.renderer.xy.StandardXYItemRenderer;
-import org.jfree.chart.renderer.xy.XYItemRenderer;
-import org.jfree.data.xy.XYDataset;
-import org.jfree.data.xy.XYSeries;
-import org.jfree.data.xy.XYSeriesCollection;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.JFreeChart;
+import se.malmin.chart.annotations.XYTextAnnotation;
+import se.malmin.chart.axis.AxisLocation;
+import se.malmin.chart.axis.NumberAxis;
+import se.malmin.chart.event.ChartChangeEvent;
+import se.malmin.chart.event.ChartChangeListener;
+import se.malmin.chart.plot.CombinedRangeXYPlot;
+import se.malmin.chart.plot.PlotOrientation;
+import se.malmin.chart.plot.XYPlot;
+import se.malmin.chart.renderer.xy.StandardXYItemRenderer;
+import se.malmin.chart.renderer.xy.XYItemRenderer;
+import se.malmin.data.xy.XYDataset;
+import se.malmin.data.xy.XYSeries;
+import se.malmin.data.xy.XYSeriesCollection;
 
 /**
  * Tests for the {@link CombinedRangeXYPlot} class.

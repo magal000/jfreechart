@@ -49,6 +49,8 @@ import java.awt.geom.Rectangle2D;
 import org.jfree.chart.TestUtils;
 import org.junit.jupiter.api.Test;
 
+import se.malmin.chart.entity.TickLabelEntity;
+
 /**
  * Tests for the {@link TickLabelEntity} class.
  */

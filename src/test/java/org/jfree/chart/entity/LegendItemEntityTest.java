@@ -48,9 +48,10 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import java.awt.geom.Rectangle2D;
 
 import org.jfree.chart.TestUtils;
-
-import org.jfree.data.category.DefaultCategoryDataset;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.entity.LegendItemEntity;
+import se.malmin.data.category.DefaultCategoryDataset;
 
 /**
  * Tests for the {@link LegendItemEntity} class.

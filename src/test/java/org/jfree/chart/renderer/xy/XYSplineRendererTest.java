@@ -49,10 +49,12 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import java.awt.geom.Rectangle2D;
 
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.ui.GradientPaintTransformType;
-import org.jfree.chart.ui.StandardGradientPaintTransformer;
-import org.jfree.chart.util.PublicCloneable;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.renderer.xy.XYSplineRenderer;
+import se.malmin.chart.ui.GradientPaintTransformType;
+import se.malmin.chart.ui.StandardGradientPaintTransformer;
+import se.malmin.chart.util.PublicCloneable;
 
 /**
  * Tests for the {@link XYSplineRenderer} class.

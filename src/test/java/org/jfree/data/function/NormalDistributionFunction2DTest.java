@@ -42,6 +42,9 @@ package org.jfree.data.function;
 
 import org.jfree.chart.TestUtils;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.data.function.NormalDistributionFunction2D;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 

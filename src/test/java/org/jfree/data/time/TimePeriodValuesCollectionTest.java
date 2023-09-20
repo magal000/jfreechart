@@ -51,9 +51,14 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertNull;
 
 import org.jfree.chart.TestUtils;
-
-import org.jfree.data.Range;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.data.Range;
+import se.malmin.data.time.Day;
+import se.malmin.data.time.SimpleTimePeriod;
+import se.malmin.data.time.TimePeriodAnchor;
+import se.malmin.data.time.TimePeriodValues;
+import se.malmin.data.time.TimePeriodValuesCollection;
 
 /**
  * Some tests for the {@link TimePeriodValuesCollection} class.

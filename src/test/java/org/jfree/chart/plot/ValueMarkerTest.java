@@ -57,14 +57,16 @@ import java.awt.GradientPaint;
 import java.awt.Stroke;
 
 import org.jfree.chart.TestUtils;
-
-import org.jfree.chart.event.MarkerChangeEvent;
-import org.jfree.chart.event.MarkerChangeListener;
-import org.jfree.chart.ui.LengthAdjustmentType;
-import org.jfree.chart.ui.RectangleAnchor;
-import org.jfree.chart.ui.RectangleInsets;
-import org.jfree.chart.ui.TextAnchor;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.event.MarkerChangeEvent;
+import se.malmin.chart.event.MarkerChangeListener;
+import se.malmin.chart.plot.Marker;
+import se.malmin.chart.plot.ValueMarker;
+import se.malmin.chart.ui.LengthAdjustmentType;
+import se.malmin.chart.ui.RectangleAnchor;
+import se.malmin.chart.ui.RectangleInsets;
+import se.malmin.chart.ui.TextAnchor;
 
 /**
  * Tests for the {@link ValueMarker} class.

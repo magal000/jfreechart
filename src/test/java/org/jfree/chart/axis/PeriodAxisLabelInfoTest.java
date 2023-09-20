@@ -57,12 +57,13 @@ import java.util.Locale;
 import java.util.TimeZone;
 
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.ui.RectangleInsets;
-
-import org.jfree.data.time.Day;
-import org.jfree.data.time.Month;
-import org.jfree.data.time.Year;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.axis.PeriodAxisLabelInfo;
+import se.malmin.chart.ui.RectangleInsets;
+import se.malmin.data.time.Day;
+import se.malmin.data.time.Month;
+import se.malmin.data.time.Year;
 
 /**
  * Tests for the {@link PeriodAxisLabelInfo} class.

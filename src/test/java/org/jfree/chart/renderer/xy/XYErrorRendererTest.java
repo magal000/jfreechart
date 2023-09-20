@@ -52,9 +52,10 @@ import java.awt.Color;
 import java.awt.GradientPaint;
 
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.util.PublicCloneable;
-
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.renderer.xy.XYErrorRenderer;
+import se.malmin.chart.util.PublicCloneable;
 
 /**
  * Tests for the {@link XYErrorRenderer} class.

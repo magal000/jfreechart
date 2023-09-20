@@ -48,12 +48,14 @@ import java.awt.Shape;
 import java.awt.Stroke;
 import java.awt.geom.Rectangle2D;
 
-import org.jfree.chart.plot.DefaultDrawingSupplier;
-import org.jfree.chart.plot.PieLabelLinkStyle;
-import org.jfree.chart.renderer.category.StandardBarPainter;
-import org.jfree.chart.renderer.xy.StandardXYBarPainter;
-import org.jfree.chart.ui.RectangleInsets;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.StandardChartTheme;
+import se.malmin.chart.plot.DefaultDrawingSupplier;
+import se.malmin.chart.plot.PieLabelLinkStyle;
+import se.malmin.chart.renderer.category.StandardBarPainter;
+import se.malmin.chart.renderer.xy.StandardXYBarPainter;
+import se.malmin.chart.ui.RectangleInsets;
 
 /**
  * Tests for the {@link StandardChartTheme} class.

@@ -52,9 +52,10 @@ import java.awt.Font;
 import java.awt.GradientPaint;
 
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.ui.HorizontalAlignment;
-
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.title.TextTitle;
+import se.malmin.chart.ui.HorizontalAlignment;
 
 /**
  * Tests for the {@link TextTitle} class.

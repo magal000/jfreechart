@@ -45,9 +45,10 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.jfree.chart.TestUtils;
-
-import org.jfree.data.Range;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.axis.ModuloAxis;
+import se.malmin.data.Range;
 
 /**
  * Tests for the {@link ModuloAxis} class.

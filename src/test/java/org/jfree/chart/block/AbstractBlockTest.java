@@ -49,9 +49,12 @@ import java.awt.Color;
 import java.awt.geom.Rectangle2D;
 
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.ui.RectangleInsets;
-
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.block.AbstractBlock;
+import se.malmin.chart.block.BlockBorder;
+import se.malmin.chart.block.EmptyBlock;
+import se.malmin.chart.ui.RectangleInsets;
 
 /**
  * Tests for the {@link AbstractBlock} class.

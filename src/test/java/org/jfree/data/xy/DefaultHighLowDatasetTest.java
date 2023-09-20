@@ -48,9 +48,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import java.util.Date;
 
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.util.PublicCloneable;
-
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.util.PublicCloneable;
+import se.malmin.data.xy.DefaultHighLowDataset;
 
 /**
  * Tests for the {@link DefaultHighLowDataset} class.

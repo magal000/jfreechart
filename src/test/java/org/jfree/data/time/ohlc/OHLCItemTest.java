@@ -46,9 +46,10 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.jfree.chart.TestUtils;
-
-import org.jfree.data.time.Year;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.data.time.Year;
+import se.malmin.data.time.ohlc.OHLCItem;
 
 /**
  * Tests for the {@link OHLCItem} class.

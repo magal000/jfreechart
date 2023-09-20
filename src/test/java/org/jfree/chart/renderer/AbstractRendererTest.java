@@ -57,6 +57,20 @@ import static org.junit.jupiter.api.Assertions.fail;
 
 import org.junit.jupiter.api.Test;
 
+import se.malmin.chart.axis.CategoryAxis;
+import se.malmin.chart.axis.NumberAxis;
+import se.malmin.chart.event.RendererChangeEvent;
+import se.malmin.chart.event.RendererChangeListener;
+import se.malmin.chart.labels.ItemLabelAnchor;
+import se.malmin.chart.labels.ItemLabelPosition;
+import se.malmin.chart.plot.CategoryPlot;
+import se.malmin.chart.plot.DefaultDrawingSupplier;
+import se.malmin.chart.renderer.AbstractRenderer;
+import se.malmin.chart.renderer.category.BarRenderer;
+import se.malmin.chart.renderer.category.LineAndShapeRenderer;
+import se.malmin.chart.renderer.xy.XYLineAndShapeRenderer;
+import se.malmin.chart.ui.TextAnchor;
+
 import java.awt.BasicStroke;
 import java.awt.Color;
 import java.awt.Font;
@@ -69,18 +83,6 @@ import java.awt.geom.Line2D;
 import java.awt.geom.Rectangle2D;
 
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.axis.CategoryAxis;
-import org.jfree.chart.axis.NumberAxis;
-import org.jfree.chart.event.RendererChangeEvent;
-import org.jfree.chart.event.RendererChangeListener;
-import org.jfree.chart.labels.ItemLabelAnchor;
-import org.jfree.chart.labels.ItemLabelPosition;
-import org.jfree.chart.plot.CategoryPlot;
-import org.jfree.chart.plot.DefaultDrawingSupplier;
-import org.jfree.chart.renderer.category.BarRenderer;
-import org.jfree.chart.renderer.category.LineAndShapeRenderer;
-import org.jfree.chart.renderer.xy.XYLineAndShapeRenderer;
-import org.jfree.chart.ui.TextAnchor;
 
 /**
  * Tests for the {@link AbstractRenderer} class.

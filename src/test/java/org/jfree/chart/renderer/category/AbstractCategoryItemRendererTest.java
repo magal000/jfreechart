@@ -53,18 +53,21 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 import org.junit.jupiter.api.Test;
 
+import se.malmin.chart.LegendItemCollection;
+import se.malmin.chart.labels.IntervalCategoryItemLabelGenerator;
+import se.malmin.chart.labels.StandardCategoryItemLabelGenerator;
+import se.malmin.chart.labels.StandardCategorySeriesLabelGenerator;
+import se.malmin.chart.labels.StandardCategoryToolTipGenerator;
+import se.malmin.chart.plot.CategoryPlot;
+import se.malmin.chart.renderer.category.AbstractCategoryItemRenderer;
+import se.malmin.chart.renderer.category.BarRenderer;
+import se.malmin.chart.renderer.category.LineAndShapeRenderer;
+import se.malmin.chart.urls.StandardCategoryURLGenerator;
+import se.malmin.data.Range;
+import se.malmin.data.category.DefaultCategoryDataset;
+
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
-
-import org.jfree.chart.LegendItemCollection;
-import org.jfree.chart.labels.IntervalCategoryItemLabelGenerator;
-import org.jfree.chart.labels.StandardCategoryItemLabelGenerator;
-import org.jfree.chart.labels.StandardCategorySeriesLabelGenerator;
-import org.jfree.chart.labels.StandardCategoryToolTipGenerator;
-import org.jfree.chart.plot.CategoryPlot;
-import org.jfree.chart.urls.StandardCategoryURLGenerator;
-import org.jfree.data.Range;
-import org.jfree.data.category.DefaultCategoryDataset;
 
 /**
  * Tests for the {@link AbstractCategoryItemRenderer} class.

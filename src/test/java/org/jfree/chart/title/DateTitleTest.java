@@ -50,6 +50,8 @@ import java.awt.Font;
 import org.jfree.chart.TestUtils;
 import org.junit.jupiter.api.Test;
 
+import se.malmin.chart.title.DateTitle;
+
 /**
  * Tests for the {@link DateTitle} class.
  */

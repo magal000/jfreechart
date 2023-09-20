@@ -50,6 +50,8 @@ import java.awt.Color;
 import org.jfree.chart.TestUtils;
 import org.junit.jupiter.api.Test;
 
+import se.malmin.chart.axis.SymbolAxis;
+
 /**
  * Tests for the {@link SymbolAxis} class.
  */

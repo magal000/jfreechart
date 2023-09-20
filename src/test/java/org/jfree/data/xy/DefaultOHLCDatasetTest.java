@@ -49,11 +49,13 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import java.util.Date;
 
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.util.PublicCloneable;
-
-import org.jfree.data.Range;
-import org.jfree.data.general.DatasetUtils;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.util.PublicCloneable;
+import se.malmin.data.Range;
+import se.malmin.data.general.DatasetUtils;
+import se.malmin.data.xy.DefaultOHLCDataset;
+import se.malmin.data.xy.OHLCDataItem;
 
 /**
  * Tests for the {@link DefaultOHLCDataset} class.

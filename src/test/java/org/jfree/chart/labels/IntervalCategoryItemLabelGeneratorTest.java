@@ -51,9 +51,10 @@ import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
 
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.util.PublicCloneable;
-
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.labels.IntervalCategoryItemLabelGenerator;
+import se.malmin.chart.util.PublicCloneable;
 
 /**
  * Tests for the {@link IntervalCategoryItemLabelGenerator} class.

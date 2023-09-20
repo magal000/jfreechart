@@ -63,11 +63,15 @@ import java.util.TimeZone;
 import java.util.function.Consumer;
 
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.date.MonthConstants;
-import org.jfree.chart.date.SerialDate;
-
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.date.MonthConstants;
+import se.malmin.chart.date.SerialDate;
+import se.malmin.data.time.Month;
+import se.malmin.data.time.RegularTimePeriod;
+import se.malmin.data.time.TimePeriodFormatException;
+import se.malmin.data.time.Year;
 
 /**
  * Tests for the {@link Month} class.

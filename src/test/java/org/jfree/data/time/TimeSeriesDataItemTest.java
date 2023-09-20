@@ -47,6 +47,9 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import org.jfree.chart.TestUtils;
 import org.junit.jupiter.api.Test;
 
+import se.malmin.data.time.Day;
+import se.malmin.data.time.TimeSeriesDataItem;
+
 /**
  * Tests for the {@link TimeSeriesDataItem} class.
  */

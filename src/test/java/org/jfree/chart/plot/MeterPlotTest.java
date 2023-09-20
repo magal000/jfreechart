@@ -53,10 +53,13 @@ import java.awt.GradientPaint;
 import java.text.DecimalFormat;
 
 import org.jfree.chart.TestUtils;
-
-import org.jfree.data.Range;
-import org.jfree.data.general.DefaultValueDataset;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.plot.DialShape;
+import se.malmin.chart.plot.MeterInterval;
+import se.malmin.chart.plot.MeterPlot;
+import se.malmin.data.Range;
+import se.malmin.data.general.DefaultValueDataset;
 
 /**
  * Tests for the {@link MeterPlot} class.

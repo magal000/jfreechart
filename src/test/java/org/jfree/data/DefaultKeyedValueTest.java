@@ -43,6 +43,8 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertNull;
 import org.junit.jupiter.api.Test;
 
+import se.malmin.data.DefaultKeyedValue;
+
 /**
  * Tests for the {@link DefaultKeyedValue} class.
  */

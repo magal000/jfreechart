@@ -44,6 +44,10 @@ package org.jfree.data;
 
 import org.jfree.chart.TestUtils;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.data.KeyedObjects2D;
+import se.malmin.data.UnknownKeyException;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;

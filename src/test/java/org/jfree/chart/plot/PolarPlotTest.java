@@ -58,18 +58,20 @@ import java.awt.Point;
 import java.awt.Stroke;
 import java.awt.geom.Rectangle2D;
 
-import org.jfree.chart.LegendItem;
-import org.jfree.chart.LegendItemCollection;
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.axis.LogAxis;
-import org.jfree.chart.axis.NumberAxis;
-import org.jfree.chart.axis.NumberTickUnit;
-import org.jfree.chart.axis.ValueAxis;
-import org.jfree.chart.renderer.DefaultPolarItemRenderer;
-import org.jfree.data.xy.DefaultXYDataset;
-import org.jfree.data.xy.XYSeries;
-import org.jfree.data.xy.XYSeriesCollection;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.LegendItem;
+import se.malmin.chart.LegendItemCollection;
+import se.malmin.chart.axis.LogAxis;
+import se.malmin.chart.axis.NumberAxis;
+import se.malmin.chart.axis.NumberTickUnit;
+import se.malmin.chart.axis.ValueAxis;
+import se.malmin.chart.plot.PolarPlot;
+import se.malmin.chart.renderer.DefaultPolarItemRenderer;
+import se.malmin.data.xy.DefaultXYDataset;
+import se.malmin.data.xy.XYSeries;
+import se.malmin.data.xy.XYSeriesCollection;
 
 /**
  * Some tests for the {@link PolarPlot} class.

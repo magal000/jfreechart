@@ -47,6 +47,9 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.jfree.chart.TestUtils;
 import org.junit.jupiter.api.Test;
 
+import se.malmin.chart.plot.dial.AbstractDialLayer;
+import se.malmin.chart.plot.dial.DialCap;
+
 /**
  * Tests for the {@link AbstractDialLayer} class.
  */

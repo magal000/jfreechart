@@ -48,10 +48,11 @@ import java.awt.Color;
 import java.awt.GradientPaint;
 
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.ui.GradientPaintTransformType;
-import org.jfree.chart.ui.StandardGradientPaintTransformer;
-
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.plot.dial.DialBackground;
+import se.malmin.chart.ui.GradientPaintTransformType;
+import se.malmin.chart.ui.StandardGradientPaintTransformer;
 
 /**
  * Tests for the {@link DialBackground} class.

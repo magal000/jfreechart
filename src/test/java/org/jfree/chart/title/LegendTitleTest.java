@@ -51,12 +51,13 @@ import java.awt.GradientPaint;
 import java.awt.geom.Rectangle2D;
 
 import org.jfree.chart.TestUtils;
-
-import org.jfree.chart.plot.XYPlot;
-import org.jfree.chart.ui.RectangleAnchor;
-import org.jfree.chart.ui.RectangleEdge;
-import org.jfree.chart.util.SortOrder;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.plot.XYPlot;
+import se.malmin.chart.title.LegendTitle;
+import se.malmin.chart.ui.RectangleAnchor;
+import se.malmin.chart.ui.RectangleEdge;
+import se.malmin.chart.util.SortOrder;
 
 /**
  * Some tests for the {@link LegendTitle} class.

@@ -51,11 +51,12 @@ import java.awt.Font;
 import java.awt.GradientPaint;
 
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.ui.RectangleAnchor;
-import org.jfree.chart.ui.RectangleInsets;
-import org.jfree.chart.ui.TextAnchor;
-
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.plot.dial.DialValueIndicator;
+import se.malmin.chart.ui.RectangleAnchor;
+import se.malmin.chart.ui.RectangleInsets;
+import se.malmin.chart.ui.TextAnchor;
 
 /**
  * Tests for the {@link DialValueIndicator} class.

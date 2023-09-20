@@ -46,6 +46,9 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.jfree.chart.TestUtils;
 import org.junit.jupiter.api.Test;
 
+import se.malmin.data.time.Day;
+import se.malmin.data.time.TimePeriodValue;
+
 /**
  * Tests for the {@link TimePeriodValue} class.
  */

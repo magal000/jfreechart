@@ -53,6 +53,8 @@ import java.awt.GradientPaint;
 import org.jfree.chart.TestUtils;
 import org.junit.jupiter.api.Test;
 
+import se.malmin.chart.renderer.LookupPaintScale;
+
 /**
  * Tests for the {@link LookupPaintScale} class.
  */

@@ -52,10 +52,11 @@ import java.awt.geom.Rectangle2D;
 import java.io.Serializable;
 
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.ui.Drawable;
-import org.jfree.chart.util.PublicCloneable;
-
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.annotations.XYDrawableAnnotation;
+import se.malmin.chart.ui.Drawable;
+import se.malmin.chart.util.PublicCloneable;
 
 /**
  * Tests for the {@link XYDrawableAnnotation} class.

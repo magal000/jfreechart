@@ -49,17 +49,20 @@ import java.awt.Graphics2D;
 import java.awt.geom.Rectangle2D;
 import java.awt.image.BufferedImage;
 
-import org.jfree.chart.ChartFactory;
-import org.jfree.chart.JFreeChart;
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.plot.CategoryPlot;
-import org.jfree.chart.plot.PlotOrientation;
-import org.jfree.chart.plot.XYPlot;
-import org.jfree.chart.ui.RectangleEdge;
-import org.jfree.data.category.DefaultCategoryDataset;
-import org.jfree.data.xy.XYSeries;
-import org.jfree.data.xy.XYSeriesCollection;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.ChartFactory;
+import se.malmin.chart.JFreeChart;
+import se.malmin.chart.axis.AxisState;
+import se.malmin.chart.axis.LogAxis;
+import se.malmin.chart.plot.CategoryPlot;
+import se.malmin.chart.plot.PlotOrientation;
+import se.malmin.chart.plot.XYPlot;
+import se.malmin.chart.ui.RectangleEdge;
+import se.malmin.data.category.DefaultCategoryDataset;
+import se.malmin.data.xy.XYSeries;
+import se.malmin.data.xy.XYSeriesCollection;
 
 /**
  * Tests for the {@link LogAxis} class.

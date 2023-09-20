@@ -48,6 +48,11 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Test;
 
+import se.malmin.data.gantt.Task;
+import se.malmin.data.gantt.TaskSeries;
+import se.malmin.data.gantt.TaskSeriesCollection;
+import se.malmin.data.gantt.XYTaskDataset;
+
 /**
  * Tests for the {@link XYTaskDataset} class.
  */

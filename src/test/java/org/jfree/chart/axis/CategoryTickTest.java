@@ -46,12 +46,13 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.text.TextBlock;
-import org.jfree.chart.text.TextBlockAnchor;
-import org.jfree.chart.text.TextLine;
-import org.jfree.chart.ui.TextAnchor;
-
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.axis.CategoryTick;
+import se.malmin.chart.text.TextBlock;
+import se.malmin.chart.text.TextBlockAnchor;
+import se.malmin.chart.text.TextLine;
+import se.malmin.chart.ui.TextAnchor;
 
 /**
  * Tests for the {@link CategoryTick} class.

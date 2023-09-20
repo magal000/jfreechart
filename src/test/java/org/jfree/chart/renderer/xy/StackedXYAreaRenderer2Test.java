@@ -52,17 +52,19 @@ import java.awt.Graphics2D;
 import java.awt.geom.Rectangle2D;
 import java.awt.image.BufferedImage;
 
-import org.jfree.chart.ChartFactory;
-import org.jfree.chart.JFreeChart;
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.axis.NumberAxis;
-import org.jfree.chart.plot.PlotOrientation;
-import org.jfree.chart.plot.XYPlot;
-import org.jfree.chart.util.PublicCloneable;
-import org.jfree.data.Range;
-import org.jfree.data.xy.DefaultTableXYDataset;
-import org.jfree.data.xy.TableXYDataset;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.ChartFactory;
+import se.malmin.chart.JFreeChart;
+import se.malmin.chart.axis.NumberAxis;
+import se.malmin.chart.plot.PlotOrientation;
+import se.malmin.chart.plot.XYPlot;
+import se.malmin.chart.renderer.xy.StackedXYAreaRenderer2;
+import se.malmin.chart.util.PublicCloneable;
+import se.malmin.data.Range;
+import se.malmin.data.xy.DefaultTableXYDataset;
+import se.malmin.data.xy.TableXYDataset;
 
 /**
  * Tests for the {@link StackedXYAreaRenderer2} class.

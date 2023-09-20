@@ -51,20 +51,22 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import java.awt.geom.Line2D;
 import java.awt.geom.Rectangle2D;
 
-import org.jfree.chart.ChartFactory;
-import org.jfree.chart.JFreeChart;
-import org.jfree.chart.LegendItem;
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.axis.NumberAxis;
-import org.jfree.chart.plot.PlotOrientation;
-import org.jfree.chart.plot.XYPlot;
-import org.jfree.chart.urls.TimeSeriesURLGenerator;
-import org.jfree.chart.util.PublicCloneable;
-import org.jfree.data.Range;
-import org.jfree.data.xy.TableXYDataset;
-import org.jfree.data.xy.XYSeries;
-import org.jfree.data.xy.XYSeriesCollection;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.ChartFactory;
+import se.malmin.chart.JFreeChart;
+import se.malmin.chart.LegendItem;
+import se.malmin.chart.axis.NumberAxis;
+import se.malmin.chart.plot.PlotOrientation;
+import se.malmin.chart.plot.XYPlot;
+import se.malmin.chart.renderer.xy.XYLineAndShapeRenderer;
+import se.malmin.chart.urls.TimeSeriesURLGenerator;
+import se.malmin.chart.util.PublicCloneable;
+import se.malmin.data.Range;
+import se.malmin.data.xy.TableXYDataset;
+import se.malmin.data.xy.XYSeries;
+import se.malmin.data.xy.XYSeriesCollection;
 
 /**
  * Tests for the {@link XYLineAndShapeRenderer} class.

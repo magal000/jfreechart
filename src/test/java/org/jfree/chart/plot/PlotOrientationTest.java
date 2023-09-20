@@ -46,6 +46,8 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import org.jfree.chart.TestUtils;
 import org.junit.jupiter.api.Test;
 
+import se.malmin.chart.plot.PlotOrientation;
+
 /**
  * Tests for the {@link PlotOrientation} class.
  *

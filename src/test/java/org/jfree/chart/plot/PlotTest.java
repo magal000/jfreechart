@@ -54,9 +54,13 @@ import java.awt.Rectangle;
 import java.awt.Shape;
 import java.awt.Stroke;
 
-import org.jfree.chart.ui.Align;
-import org.jfree.chart.ui.RectangleInsets;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.plot.DefaultDrawingSupplier;
+import se.malmin.chart.plot.PiePlot;
+import se.malmin.chart.plot.Plot;
+import se.malmin.chart.ui.Align;
+import se.malmin.chart.ui.RectangleInsets;
 
 /**
  * Some tests for the {@link Plot} class.

@@ -51,11 +51,13 @@ import java.awt.Color;
 import java.awt.GradientPaint;
 
 import org.jfree.chart.TestUtils;
-
-import org.jfree.chart.block.BlockBorder;
-import org.jfree.chart.block.BlockContainer;
-import org.jfree.chart.ui.RectangleInsets;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.block.BlockBorder;
+import se.malmin.chart.block.BlockContainer;
+import se.malmin.chart.title.CompositeTitle;
+import se.malmin.chart.title.TextTitle;
+import se.malmin.chart.ui.RectangleInsets;
 
 /**
  * Tests for the {@link CompositeTitle} class.

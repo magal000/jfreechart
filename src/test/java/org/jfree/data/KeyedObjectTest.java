@@ -45,12 +45,13 @@ import java.util.ArrayList;
 
 import org.jfree.chart.TestUtils;
 
-import org.jfree.data.general.DefaultPieDataset;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.data.KeyedObject;
+import se.malmin.data.general.DefaultPieDataset;
 
 /**
  * Tests for the {@link KeyedObject} class.

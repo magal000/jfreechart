@@ -68,14 +68,23 @@ import java.util.Locale;
 import java.util.TimeZone;
 
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.date.MonthConstants;
-import org.jfree.data.Range;
-import org.jfree.data.general.SeriesChangeEvent;
-import org.jfree.data.general.SeriesChangeListener;
-import org.jfree.data.general.SeriesException;
-
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.date.MonthConstants;
+import se.malmin.data.Range;
+import se.malmin.data.general.SeriesChangeEvent;
+import se.malmin.data.general.SeriesChangeListener;
+import se.malmin.data.general.SeriesException;
+import se.malmin.data.time.Day;
+import se.malmin.data.time.FixedMillisecond;
+import se.malmin.data.time.Month;
+import se.malmin.data.time.RegularTimePeriod;
+import se.malmin.data.time.TimePeriodAnchor;
+import se.malmin.data.time.TimeSeries;
+import se.malmin.data.time.TimeSeriesCollection;
+import se.malmin.data.time.TimeSeriesDataItem;
+import se.malmin.data.time.Year;
 
 /**
  * A collection of test cases for the {@link TimeSeries} class.

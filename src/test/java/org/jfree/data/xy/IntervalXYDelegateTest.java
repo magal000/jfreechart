@@ -48,6 +48,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.jfree.chart.TestUtils;
 import org.junit.jupiter.api.Test;
 
+import se.malmin.data.xy.IntervalXYDelegate;
+import se.malmin.data.xy.XYSeries;
+import se.malmin.data.xy.XYSeriesCollection;
+
 /**
  * Some checks for the {@link IntervalXYDelegate} class.
  */

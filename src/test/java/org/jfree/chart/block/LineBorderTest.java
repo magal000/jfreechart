@@ -49,9 +49,10 @@ import java.awt.Color;
 import java.awt.GradientPaint;
 
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.ui.RectangleInsets;
-
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.block.LineBorder;
+import se.malmin.chart.ui.RectangleInsets;
 
 /**
  * Tests for the {@link LineBorder} class.

@@ -51,11 +51,12 @@ import static org.junit.jupiter.api.Assertions.assertNull;
 import java.util.Arrays;
 import java.util.List;
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.util.PublicCloneable;
-
-import org.jfree.data.Range;
-import org.jfree.data.statistics.DefaultMultiValueCategoryDataset;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.renderer.category.ScatterRenderer;
+import se.malmin.chart.util.PublicCloneable;
+import se.malmin.data.Range;
+import se.malmin.data.statistics.DefaultMultiValueCategoryDataset;
 
 /**
  * Tests for the {@link ScatterRenderer} class.

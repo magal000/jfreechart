@@ -43,10 +43,12 @@ package org.jfree.data.statistics;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.jfree.data.xy.XYDataset;
-import org.jfree.data.xy.XYSeries;
-import org.jfree.data.xy.XYSeriesCollection;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.data.statistics.Regression;
+import se.malmin.data.xy.XYDataset;
+import se.malmin.data.xy.XYSeries;
+import se.malmin.data.xy.XYSeriesCollection;
 
 /**
  * Tests for the {@link Regression} class.

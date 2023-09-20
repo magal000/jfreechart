@@ -49,9 +49,11 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertNotSame;
 import static org.junit.jupiter.api.Assertions.assertSame;
 
-import org.jfree.chart.entity.ChartEntity;
-import org.jfree.chart.entity.StandardEntityCollection;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.ChartRenderingInfo;
+import se.malmin.chart.entity.ChartEntity;
+import se.malmin.chart.entity.StandardEntityCollection;
 
 /**
  * Tests for the {@link ChartRenderingInfo} class.

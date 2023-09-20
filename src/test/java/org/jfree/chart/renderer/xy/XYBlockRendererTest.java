@@ -51,15 +51,16 @@ import static org.junit.jupiter.api.Assertions.assertNull;
 import java.awt.Color;
 
 import org.jfree.chart.TestUtils;
-
-import org.jfree.chart.renderer.GrayPaintScale;
-import org.jfree.chart.renderer.LookupPaintScale;
-import org.jfree.chart.util.PublicCloneable;
-import org.jfree.data.Range;
-import org.jfree.data.xy.DefaultXYZDataset;
-import org.jfree.data.xy.XYSeriesCollection;
-import org.jfree.data.xy.XYSeries;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.renderer.GrayPaintScale;
+import se.malmin.chart.renderer.LookupPaintScale;
+import se.malmin.chart.renderer.xy.XYBlockRenderer;
+import se.malmin.chart.util.PublicCloneable;
+import se.malmin.data.Range;
+import se.malmin.data.xy.DefaultXYZDataset;
+import se.malmin.data.xy.XYSeries;
+import se.malmin.data.xy.XYSeriesCollection;
 
 /**
  * Tests for the {@link XYBlockRenderer} class.

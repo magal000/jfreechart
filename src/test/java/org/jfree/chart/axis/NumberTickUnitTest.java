@@ -49,6 +49,8 @@ import java.text.DecimalFormat;
 import org.jfree.chart.TestUtils;
 import org.junit.jupiter.api.Test;
 
+import se.malmin.chart.axis.NumberTickUnit;
+
 /**
  * Some tests for the {@link NumberTickUnit} class.
  */

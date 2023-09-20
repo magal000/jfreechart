@@ -53,6 +53,9 @@ import static org.junit.jupiter.api.Assertions.assertNull;
 import org.jfree.chart.TestUtils;
 import org.junit.jupiter.api.Test;
 
+import se.malmin.data.DefaultKeyedValues2D;
+import se.malmin.data.UnknownKeyException;
+
 /**
  * Tests for the {@link DefaultKeyedValues2D} class.
  */

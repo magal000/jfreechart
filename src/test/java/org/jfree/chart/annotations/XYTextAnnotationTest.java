@@ -54,10 +54,11 @@ import java.awt.Font;
 import java.awt.GradientPaint;
 
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.ui.TextAnchor;
-import org.jfree.chart.util.PublicCloneable;
-
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.annotations.XYTextAnnotation;
+import se.malmin.chart.ui.TextAnchor;
+import se.malmin.chart.util.PublicCloneable;
 
 /**
  * Tests for the {@link XYTextAnnotation} class.

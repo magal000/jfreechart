@@ -53,16 +53,18 @@ import static org.junit.jupiter.api.Assertions.fail;
 import java.awt.BasicStroke;
 import java.awt.Color;
 
-import org.jfree.chart.JFreeChart;
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.axis.CategoryAxis;
-import org.jfree.chart.axis.NumberAxis;
-import org.jfree.chart.plot.CategoryPlot;
-import org.jfree.chart.plot.PlotOrientation;
-import org.jfree.chart.util.PublicCloneable;
-import org.jfree.data.Range;
-import org.jfree.data.statistics.DefaultStatisticalCategoryDataset;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.JFreeChart;
+import se.malmin.chart.axis.CategoryAxis;
+import se.malmin.chart.axis.NumberAxis;
+import se.malmin.chart.plot.CategoryPlot;
+import se.malmin.chart.plot.PlotOrientation;
+import se.malmin.chart.renderer.category.StatisticalBarRenderer;
+import se.malmin.chart.util.PublicCloneable;
+import se.malmin.data.Range;
+import se.malmin.data.statistics.DefaultStatisticalCategoryDataset;
 
 /**
  * Tests for the {@link StatisticalBarRenderer} class.

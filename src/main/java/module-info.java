@@ -1,0 +1,45 @@
+open module se.malmin.jfreechart{
+	requires transitive java.desktop;
+	requires java.sql;
+	
+	exports se.malmin.chart;
+	exports se.malmin.chart.annotations;
+	exports se.malmin.chart.axis;
+	exports se.malmin.chart.block;
+	exports se.malmin.chart.date;
+	exports se.malmin.chart.editor;
+	exports se.malmin.chart.encoders;
+	exports se.malmin.chart.entity;
+	exports se.malmin.chart.event;
+	exports se.malmin.chart.imagemap;
+	exports se.malmin.chart.labels;
+	exports se.malmin.chart.needle;
+	exports se.malmin.chart.panel;
+	exports se.malmin.chart.plot;
+	exports se.malmin.chart.plot.dial;
+	exports se.malmin.chart.plot.flow;
+	exports se.malmin.chart.renderer;
+	exports se.malmin.chart.renderer.category;
+	exports se.malmin.chart.renderer.xy;
+	exports se.malmin.chart.text;
+	exports se.malmin.chart.title;
+	exports se.malmin.chart.ui;
+	exports se.malmin.chart.urls;
+	exports se.malmin.chart.util;
+	exports se.malmin.data;
+	exports se.malmin.data.category;
+	exports se.malmin.data.flow;
+	exports se.malmin.data.function;
+	exports se.malmin.data.gantt;
+	exports se.malmin.data.general;
+	exports se.malmin.data.io;
+	exports se.malmin.data.jdbc;
+	exports se.malmin.data.json;
+	exports se.malmin.data.json.impl;
+	exports se.malmin.data.resources;
+	exports se.malmin.data.statistics;
+	exports se.malmin.data.time;
+	exports se.malmin.data.time.ohlc;
+	exports se.malmin.data.xml;
+	exports se.malmin.data.xy;
+}

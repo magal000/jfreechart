@@ -48,9 +48,11 @@ import static org.junit.jupiter.api.Assertions.assertNull;
 import java.util.ArrayList;
 
 import org.jfree.chart.TestUtils;
-
-import org.jfree.data.general.DefaultPieDataset;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.data.KeyedObjects;
+import se.malmin.data.UnknownKeyException;
+import se.malmin.data.general.DefaultPieDataset;
 
 /**
  * Tests for the {@link KeyedObjects} class.

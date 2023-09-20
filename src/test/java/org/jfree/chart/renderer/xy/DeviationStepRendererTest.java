@@ -37,11 +37,14 @@
 package org.jfree.chart.renderer.xy;
 
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.util.PublicCloneable;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.renderer.xy.DeviationStepRenderer;
+import se.malmin.chart.util.PublicCloneable;
 
 /**
  * Tests for the {@link DeviationStepRenderer} class.

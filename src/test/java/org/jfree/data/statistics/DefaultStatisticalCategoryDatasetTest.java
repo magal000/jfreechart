@@ -50,10 +50,11 @@ import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.junit.jupiter.api.Assertions.fail;
 
 import org.jfree.chart.TestUtils;
-
-import org.jfree.data.Range;
-import org.jfree.data.UnknownKeyException;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.data.Range;
+import se.malmin.data.UnknownKeyException;
+import se.malmin.data.statistics.DefaultStatisticalCategoryDataset;
 
 /**
  * Tests for the {@link DefaultStatisticalCategoryDataset} class.

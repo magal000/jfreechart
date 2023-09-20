@@ -56,9 +56,12 @@ import java.awt.GradientPaint;
 import java.awt.font.TextAttribute;
 import java.text.AttributedString;
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.ui.RectangleInsets;
-
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.axis.Axis;
+import se.malmin.chart.axis.AxisLabelLocation;
+import se.malmin.chart.axis.CategoryAxis;
+import se.malmin.chart.ui.RectangleInsets;
 
 /**
  * Tests for the {@link Axis} class.

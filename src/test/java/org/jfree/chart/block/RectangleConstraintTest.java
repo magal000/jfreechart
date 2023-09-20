@@ -40,11 +40,14 @@
 
 package org.jfree.chart.block;
 
-import org.jfree.chart.ui.Size2D;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.jfree.data.Range;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.block.LengthConstraintType;
+import se.malmin.chart.block.RectangleConstraint;
+import se.malmin.chart.ui.Size2D;
+import se.malmin.data.Range;
 
 /**
  * Tests for the {@link RectangleConstraint} class.

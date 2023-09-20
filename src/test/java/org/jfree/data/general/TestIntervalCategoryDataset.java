@@ -42,11 +42,13 @@ package org.jfree.data.general;
 
 import java.io.Serializable;
 import java.util.List;
-import org.jfree.chart.util.PublicCloneable;
 
-import org.jfree.data.KeyedObjects2D;
-import org.jfree.data.UnknownKeyException;
-import org.jfree.data.category.IntervalCategoryDataset;
+import se.malmin.chart.util.PublicCloneable;
+import se.malmin.data.KeyedObjects2D;
+import se.malmin.data.UnknownKeyException;
+import se.malmin.data.category.IntervalCategoryDataset;
+import se.malmin.data.general.AbstractDataset;
+import se.malmin.data.general.DatasetChangeEvent;
 /**
  * A test implementation of the {@link IntervalCategoryDataset} interface.
  */

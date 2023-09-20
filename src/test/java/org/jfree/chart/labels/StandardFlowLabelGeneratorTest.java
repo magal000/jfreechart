@@ -41,6 +41,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Test;
 
+import se.malmin.chart.labels.StandardFlowLabelGenerator;
+
 /**
  * Tests for the {@link StandardFlowLabelGenerator} class.
  */

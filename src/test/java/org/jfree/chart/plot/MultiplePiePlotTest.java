@@ -54,16 +54,18 @@ import java.awt.Color;
 import java.awt.GradientPaint;
 import java.awt.geom.Rectangle2D;
 
-import org.jfree.chart.ChartFactory;
-import org.jfree.chart.JFreeChart;
-import org.jfree.chart.LegendItem;
-import org.jfree.chart.LegendItemCollection;
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.event.PlotChangeEvent;
-import org.jfree.chart.event.PlotChangeListener;
-import org.jfree.chart.util.TableOrder;
-import org.jfree.data.category.DefaultCategoryDataset;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.ChartFactory;
+import se.malmin.chart.JFreeChart;
+import se.malmin.chart.LegendItem;
+import se.malmin.chart.LegendItemCollection;
+import se.malmin.chart.event.PlotChangeEvent;
+import se.malmin.chart.event.PlotChangeListener;
+import se.malmin.chart.plot.MultiplePiePlot;
+import se.malmin.chart.util.TableOrder;
+import se.malmin.data.category.DefaultCategoryDataset;
 
 /**
  * Some tests for the {@link MultiplePiePlot} class.

@@ -56,23 +56,26 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 import java.awt.Color;
 
-import org.jfree.chart.JFreeChart;
-import org.jfree.chart.LegendItem;
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.axis.CategoryAxis;
-import org.jfree.chart.axis.NumberAxis;
-import org.jfree.chart.labels.ItemLabelAnchor;
-import org.jfree.chart.labels.ItemLabelPosition;
-import org.jfree.chart.labels.StandardCategoryItemLabelGenerator;
-import org.jfree.chart.plot.CategoryPlot;
 import org.jfree.chart.renderer.RendererChangeDetector;
-import org.jfree.chart.ui.GradientPaintTransformType;
-import org.jfree.chart.ui.StandardGradientPaintTransformer;
-import org.jfree.chart.ui.TextAnchor;
-import org.jfree.chart.util.PublicCloneable;
-import org.jfree.data.Range;
-import org.jfree.data.category.DefaultCategoryDataset;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.JFreeChart;
+import se.malmin.chart.LegendItem;
+import se.malmin.chart.axis.CategoryAxis;
+import se.malmin.chart.axis.NumberAxis;
+import se.malmin.chart.labels.ItemLabelAnchor;
+import se.malmin.chart.labels.ItemLabelPosition;
+import se.malmin.chart.labels.StandardCategoryItemLabelGenerator;
+import se.malmin.chart.plot.CategoryPlot;
+import se.malmin.chart.renderer.category.BarRenderer;
+import se.malmin.chart.renderer.category.GradientBarPainter;
+import se.malmin.chart.ui.GradientPaintTransformType;
+import se.malmin.chart.ui.StandardGradientPaintTransformer;
+import se.malmin.chart.ui.TextAnchor;
+import se.malmin.chart.util.PublicCloneable;
+import se.malmin.data.Range;
+import se.malmin.data.category.DefaultCategoryDataset;
 
 /**
  * Tests for the {@link BarRenderer} class.

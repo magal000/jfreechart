@@ -40,8 +40,8 @@
 
 package org.jfree.chart.renderer;
 
-import org.jfree.chart.event.RendererChangeEvent;
-import org.jfree.chart.event.RendererChangeListener;
+import se.malmin.chart.event.RendererChangeEvent;
+import se.malmin.chart.event.RendererChangeListener;
 
 /**
  * A simple class for detecting whether or not a renderer has generated

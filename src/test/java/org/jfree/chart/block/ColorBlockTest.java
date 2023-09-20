@@ -52,6 +52,8 @@ import java.awt.geom.Rectangle2D;
 import org.jfree.chart.TestUtils;
 import org.junit.jupiter.api.Test;
 
+import se.malmin.chart.block.ColorBlock;
+
 /**
  * Tests for the {@link ColorBlock} class.
  */

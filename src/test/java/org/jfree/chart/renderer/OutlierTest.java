@@ -48,6 +48,8 @@ import java.awt.geom.Point2D;
 import java.io.Serializable;
 import org.junit.jupiter.api.Test;
 
+import se.malmin.chart.renderer.Outlier;
+
 /**
  * Tests for the {@link Outlier} class.
  */

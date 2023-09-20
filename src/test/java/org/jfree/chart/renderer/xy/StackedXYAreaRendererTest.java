@@ -55,18 +55,21 @@ import java.awt.Color;
 import java.awt.GradientPaint;
 import java.awt.Stroke;
 
-import org.jfree.chart.ChartFactory;
-import org.jfree.chart.JFreeChart;
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.axis.NumberAxis;
-import org.jfree.chart.plot.PlotOrientation;
-import org.jfree.chart.plot.XYPlot;
-import org.jfree.chart.util.PublicCloneable;
-import org.jfree.data.Range;
-import org.jfree.data.xy.DefaultTableXYDataset;
-import org.jfree.data.xy.TableXYDataset;
-import org.jfree.data.xy.XYSeries;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.ChartFactory;
+import se.malmin.chart.JFreeChart;
+import se.malmin.chart.axis.NumberAxis;
+import se.malmin.chart.plot.PlotOrientation;
+import se.malmin.chart.plot.XYPlot;
+import se.malmin.chart.renderer.xy.StackedXYAreaRenderer;
+import se.malmin.chart.renderer.xy.XYAreaRenderer;
+import se.malmin.chart.util.PublicCloneable;
+import se.malmin.data.Range;
+import se.malmin.data.xy.DefaultTableXYDataset;
+import se.malmin.data.xy.TableXYDataset;
+import se.malmin.data.xy.XYSeries;
 
 /**
  * Tests for the {@link StackedXYAreaRenderer} class.

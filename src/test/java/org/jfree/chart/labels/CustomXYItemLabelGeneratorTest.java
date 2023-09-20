@@ -49,9 +49,10 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import java.util.List;
 
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.util.PublicCloneable;
-
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.labels.CustomXYToolTipGenerator;
+import se.malmin.chart.util.PublicCloneable;
 
 /**
  * Tests for the {@link CustomXYToolTipGenerator} class.

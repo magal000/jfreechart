@@ -48,9 +48,11 @@ import java.util.ArrayList;
 import java.util.Date;
 
 import org.jfree.chart.TestUtils;
-
-import org.jfree.data.Range;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.data.Range;
+import se.malmin.data.statistics.BoxAndWhiskerItem;
+import se.malmin.data.statistics.DefaultBoxAndWhiskerXYDataset;
 
 /**
  * Tests for the {@link DefaultBoxAndWhiskerXYDataset} class.

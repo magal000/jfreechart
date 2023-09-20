@@ -49,12 +49,14 @@ import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 import org.jfree.chart.TestUtils;
-
-import org.jfree.data.general.DatasetChangeEvent;
-import org.jfree.data.general.DatasetChangeListener;
-import org.jfree.data.time.TimePeriodAnchor;
-import org.jfree.data.time.Year;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.data.general.DatasetChangeEvent;
+import se.malmin.data.general.DatasetChangeListener;
+import se.malmin.data.time.TimePeriodAnchor;
+import se.malmin.data.time.Year;
+import se.malmin.data.time.ohlc.OHLCSeries;
+import se.malmin.data.time.ohlc.OHLCSeriesCollection;
 
 /**
  * Tests for the {@link OHLCSeriesCollectionTests} class.

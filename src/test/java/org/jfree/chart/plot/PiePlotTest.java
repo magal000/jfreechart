@@ -62,22 +62,26 @@ import java.awt.geom.Rectangle2D;
 import java.awt.image.BufferedImage;
 import java.text.AttributedString;
 
-import org.jfree.chart.ChartFactory;
-import org.jfree.chart.JFreeChart;
-import org.jfree.chart.LegendItemCollection;
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.labels.PieSectionLabelGenerator;
-import org.jfree.chart.labels.StandardPieSectionLabelGenerator;
-import org.jfree.chart.labels.StandardPieToolTipGenerator;
-import org.jfree.chart.urls.CustomPieURLGenerator;
-import org.jfree.chart.urls.StandardPieURLGenerator;
-import org.jfree.chart.util.DefaultShadowGenerator;
-import org.jfree.chart.util.Rotation;
-import org.jfree.data.general.DefaultPieDataset;
-import org.jfree.data.general.PieDataset;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.ChartFactory;
+import se.malmin.chart.JFreeChart;
+import se.malmin.chart.LegendItemCollection;
+import se.malmin.chart.labels.PieSectionLabelGenerator;
+import se.malmin.chart.labels.StandardPieSectionLabelGenerator;
+import se.malmin.chart.labels.StandardPieToolTipGenerator;
+import se.malmin.chart.plot.PieLabelLinkStyle;
+import se.malmin.chart.plot.PiePlot;
+import se.malmin.chart.urls.CustomPieURLGenerator;
+import se.malmin.chart.urls.StandardPieURLGenerator;
+import se.malmin.chart.util.DefaultShadowGenerator;
+import se.malmin.chart.util.Rotation;
+import se.malmin.data.general.DefaultPieDataset;
+import se.malmin.data.general.PieDataset;
 
 /**
  * Some tests for the {@link PiePlot} class.

@@ -42,10 +42,13 @@
 package org.jfree.data.category;
 
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.util.TableOrder;
-
-import org.jfree.data.general.DefaultPieDataset;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.util.TableOrder;
+import se.malmin.data.category.CategoryToPieDataset;
+import se.malmin.data.category.DefaultCategoryDataset;
+import se.malmin.data.general.DefaultPieDataset;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertNull;

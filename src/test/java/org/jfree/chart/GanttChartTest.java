@@ -46,20 +46,24 @@ import java.awt.image.BufferedImage;
 import java.util.Calendar;
 import java.util.Date;
 
-import org.jfree.chart.event.ChartChangeEvent;
-import org.jfree.chart.event.ChartChangeListener;
-import org.jfree.chart.labels.CategoryToolTipGenerator;
-import org.jfree.chart.labels.StandardCategoryToolTipGenerator;
-import org.jfree.chart.plot.CategoryPlot;
-import org.jfree.chart.renderer.category.CategoryItemRenderer;
-import org.jfree.chart.urls.CategoryURLGenerator;
-import org.jfree.chart.urls.StandardCategoryURLGenerator;
-import org.jfree.data.category.IntervalCategoryDataset;
-import org.jfree.data.gantt.Task;
-import org.jfree.data.gantt.TaskSeries;
-import org.jfree.data.gantt.TaskSeriesCollection;
-import org.jfree.data.time.SimpleTimePeriod;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.ChartFactory;
+import se.malmin.chart.JFreeChart;
+import se.malmin.chart.event.ChartChangeEvent;
+import se.malmin.chart.event.ChartChangeListener;
+import se.malmin.chart.labels.CategoryToolTipGenerator;
+import se.malmin.chart.labels.StandardCategoryToolTipGenerator;
+import se.malmin.chart.plot.CategoryPlot;
+import se.malmin.chart.renderer.category.CategoryItemRenderer;
+import se.malmin.chart.urls.CategoryURLGenerator;
+import se.malmin.chart.urls.StandardCategoryURLGenerator;
+import se.malmin.data.category.IntervalCategoryDataset;
+import se.malmin.data.gantt.Task;
+import se.malmin.data.gantt.TaskSeries;
+import se.malmin.data.gantt.TaskSeriesCollection;
+import se.malmin.data.time.SimpleTimePeriod;
+
 import static org.junit.jupiter.api.Assertions.fail;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertSame;

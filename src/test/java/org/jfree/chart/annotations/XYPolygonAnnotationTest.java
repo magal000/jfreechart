@@ -51,8 +51,10 @@ import java.awt.GradientPaint;
 import java.awt.Stroke;
 
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.util.PublicCloneable;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.annotations.XYPolygonAnnotation;
+import se.malmin.chart.util.PublicCloneable;
 
 /**
  * Tests for the {@link XYPolygonAnnotation} class.

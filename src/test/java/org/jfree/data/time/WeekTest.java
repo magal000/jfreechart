@@ -55,6 +55,10 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import se.malmin.data.time.RegularTimePeriod;
+import se.malmin.data.time.Week;
+import se.malmin.data.time.Year;
+
 /**
  * Tests for the {@link Week} class.
  */

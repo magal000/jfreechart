@@ -46,10 +46,16 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.ui.Size2D;
-
-import org.jfree.data.Range;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.block.Block;
+import se.malmin.chart.block.BlockContainer;
+import se.malmin.chart.block.EmptyBlock;
+import se.malmin.chart.block.GridArrangement;
+import se.malmin.chart.block.LengthConstraintType;
+import se.malmin.chart.block.RectangleConstraint;
+import se.malmin.chart.ui.Size2D;
+import se.malmin.data.Range;
 
 /**
  * Tests for the {@link GridArrangement} class.

@@ -50,6 +50,8 @@ import java.awt.Font;
 import org.jfree.chart.TestUtils;
 import org.junit.jupiter.api.Test;
 
+import se.malmin.chart.axis.MarkerAxisBand;
+
 /**
  * Tests for the {@link MarkerAxisBand} class.
  */

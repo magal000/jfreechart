@@ -38,11 +38,14 @@ package org.jfree.chart.entity;
 
 import java.awt.Rectangle;
 import org.jfree.chart.TestUtils;
-import org.jfree.data.flow.FlowKey;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.entity.FlowEntity;
+import se.malmin.data.flow.FlowKey;
 
 /**
  * Test class for the {@link FlowEntity} class.

@@ -43,6 +43,8 @@ package org.jfree.chart;
 
 import org.junit.jupiter.api.Test;
 
+import se.malmin.chart.PaintMap;
+
 import java.awt.Color;
 import java.awt.GradientPaint;
 

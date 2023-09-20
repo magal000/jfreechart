@@ -48,6 +48,8 @@ import java.util.ArrayList;
 import org.jfree.chart.TestUtils;
 import org.junit.jupiter.api.Test;
 
+import se.malmin.data.statistics.BoxAndWhiskerItem;
+
 /**
  * Tests for the {@link BoxAndWhiskerItem} class.
  */

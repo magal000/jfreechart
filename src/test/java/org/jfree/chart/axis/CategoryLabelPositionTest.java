@@ -46,11 +46,13 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.text.TextBlockAnchor;
-import org.jfree.chart.ui.RectangleAnchor;
-import org.jfree.chart.ui.TextAnchor;
-
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.axis.CategoryLabelPosition;
+import se.malmin.chart.axis.CategoryLabelWidthType;
+import se.malmin.chart.text.TextBlockAnchor;
+import se.malmin.chart.ui.RectangleAnchor;
+import se.malmin.chart.ui.TextAnchor;
 
 /**
  * Tests for the {@link CategoryLabelPosition} class.

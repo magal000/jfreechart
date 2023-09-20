@@ -50,9 +50,10 @@ import java.awt.Font;
 import java.awt.GradientPaint;
 
 import org.jfree.chart.TestUtils;
-
-import org.jfree.data.general.DefaultValueDataset;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.plot.CompassPlot;
+import se.malmin.data.general.DefaultValueDataset;
 
 /**
  * Tests for the {@link CompassPlot} class.

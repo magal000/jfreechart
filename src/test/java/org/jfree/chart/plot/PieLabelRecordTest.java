@@ -44,9 +44,10 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.text.TextBox;
-
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.plot.PieLabelRecord;
+import se.malmin.chart.text.TextBox;
 
 /**
  * Some tests for the {@link PieLabelRecord} class.

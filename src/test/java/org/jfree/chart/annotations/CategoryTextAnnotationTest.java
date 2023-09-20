@@ -47,10 +47,11 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 
 import org.jfree.chart.TestUtils;
-
-import org.jfree.chart.axis.CategoryAnchor;
-import org.jfree.chart.util.PublicCloneable;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.annotations.CategoryTextAnnotation;
+import se.malmin.chart.axis.CategoryAnchor;
+import se.malmin.chart.util.PublicCloneable;
 
 /**
  * Tests for the {@link CategoryTextAnnotation} class.

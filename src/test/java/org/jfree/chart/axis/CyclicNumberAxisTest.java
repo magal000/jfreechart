@@ -55,6 +55,8 @@ import java.awt.Stroke;
 import org.jfree.chart.TestUtils;
 import org.junit.jupiter.api.Test;
 
+import se.malmin.chart.axis.CyclicNumberAxis;
+
 /**
  * Tests for the {@link CyclicNumberAxis} class.
  */

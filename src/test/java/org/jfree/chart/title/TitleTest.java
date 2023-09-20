@@ -41,14 +41,17 @@
 
 package org.jfree.chart.title;
 
-import org.jfree.chart.ui.HorizontalAlignment;
-import org.jfree.chart.ui.RectangleEdge;
-import org.jfree.chart.ui.VerticalAlignment;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.title.TextTitle;
+import se.malmin.chart.title.Title;
+import se.malmin.chart.ui.HorizontalAlignment;
+import se.malmin.chart.ui.RectangleEdge;
+import se.malmin.chart.ui.VerticalAlignment;
 
 /**
  * Tests for the abstract {@link Title} class.

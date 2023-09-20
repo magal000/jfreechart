@@ -52,18 +52,20 @@ import static org.junit.jupiter.api.Assertions.fail;
 
 import java.awt.geom.Rectangle2D;
 
-import org.jfree.chart.JFreeChart;
-import org.jfree.chart.LegendItem;
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.axis.NumberAxis;
-import org.jfree.chart.plot.XYPlot;
-import org.jfree.chart.ui.GradientPaintTransformType;
-import org.jfree.chart.ui.StandardGradientPaintTransformer;
-import org.jfree.chart.util.PublicCloneable;
-import org.jfree.data.xy.DefaultTableXYDataset;
-import org.jfree.data.xy.XYSeries;
-import org.jfree.data.xy.XYSeriesCollection;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.JFreeChart;
+import se.malmin.chart.LegendItem;
+import se.malmin.chart.axis.NumberAxis;
+import se.malmin.chart.plot.XYPlot;
+import se.malmin.chart.renderer.xy.XYAreaRenderer;
+import se.malmin.chart.ui.GradientPaintTransformType;
+import se.malmin.chart.ui.StandardGradientPaintTransformer;
+import se.malmin.chart.util.PublicCloneable;
+import se.malmin.data.xy.DefaultTableXYDataset;
+import se.malmin.data.xy.XYSeries;
+import se.malmin.data.xy.XYSeriesCollection;
 
 /**
  * Tests for the {@link XYAreaRenderer} class.

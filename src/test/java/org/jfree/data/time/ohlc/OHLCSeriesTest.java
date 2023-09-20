@@ -50,12 +50,13 @@ import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 import org.jfree.chart.TestUtils;
-
-import org.jfree.data.general.SeriesChangeEvent;
-import org.jfree.data.general.SeriesChangeListener;
-import org.jfree.data.general.SeriesException;
-import org.jfree.data.time.Year;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.data.general.SeriesChangeEvent;
+import se.malmin.data.general.SeriesChangeListener;
+import se.malmin.data.general.SeriesException;
+import se.malmin.data.time.Year;
+import se.malmin.data.time.ohlc.OHLCSeries;
 
 /**
  * Tests for the {@link OHLCSeries} class.

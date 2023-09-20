@@ -52,11 +52,12 @@ import java.awt.geom.Line2D;
 import java.awt.geom.Rectangle2D;
 
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.ui.GradientPaintTransformType;
-import org.jfree.chart.ui.RectangleAnchor;
-import org.jfree.chart.ui.StandardGradientPaintTransformer;
-
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.title.LegendGraphic;
+import se.malmin.chart.ui.GradientPaintTransformType;
+import se.malmin.chart.ui.RectangleAnchor;
+import se.malmin.chart.ui.StandardGradientPaintTransformer;
 
 /**
  * Tests for the {@link LegendGraphic} class.

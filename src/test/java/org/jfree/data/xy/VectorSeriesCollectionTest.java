@@ -47,9 +47,11 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.util.PublicCloneable;
-
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.util.PublicCloneable;
+import se.malmin.data.xy.VectorSeries;
+import se.malmin.data.xy.VectorSeriesCollection;
 
 /**
  * Tests for the {@link VectorSeriesCollection} class.

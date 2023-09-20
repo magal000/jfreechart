@@ -52,11 +52,13 @@ import java.awt.Color;
 import java.awt.GradientPaint;
 import java.awt.Stroke;
 
-import org.jfree.chart.JFreeChart;
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.axis.NumberAxis;
-import org.jfree.chart.axis.ValueAxis;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.JFreeChart;
+import se.malmin.chart.axis.NumberAxis;
+import se.malmin.chart.axis.ValueAxis;
+import se.malmin.chart.plot.FastScatterPlot;
 
 /**
  * Tests for the {@link FastScatterPlot} class.

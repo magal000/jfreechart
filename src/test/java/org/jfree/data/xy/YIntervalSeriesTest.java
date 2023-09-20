@@ -48,10 +48,11 @@ import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 import org.jfree.chart.TestUtils;
-
-import org.jfree.data.general.SeriesChangeEvent;
-import org.jfree.data.general.SeriesChangeListener;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.data.general.SeriesChangeEvent;
+import se.malmin.data.general.SeriesChangeListener;
+import se.malmin.data.xy.YIntervalSeries;
 
 /**
  * Tests for the {@link YIntervalSeries} class.

@@ -44,11 +44,13 @@ import java.util.Date;
 
 import org.jfree.chart.TestUtils;
 
-import org.jfree.data.time.SimpleTimePeriod;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.data.gantt.Task;
+import se.malmin.data.time.SimpleTimePeriod;
 
 /**
  * Tests for the {@link Task} class.

@@ -47,6 +47,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.jfree.chart.TestUtils;
 import org.junit.jupiter.api.Test;
 
+import se.malmin.data.xy.XIntervalDataItem;
+
 /**
  * Tests for the {@link XIntervalDataItem} class.
  */

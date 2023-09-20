@@ -48,6 +48,8 @@ import static org.junit.jupiter.api.Assertions.fail;
 import org.jfree.chart.TestUtils;
 import org.junit.jupiter.api.Test;
 
+import se.malmin.chart.block.EmptyBlock;
+
 /**
  * Tests for the {@link EmptyBlock} class.
  */

@@ -44,9 +44,12 @@ package org.jfree.data.category;
 import java.util.List;
 
 import org.jfree.chart.TestUtils;
-
-import org.jfree.data.UnknownKeyException;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.data.UnknownKeyException;
+import se.malmin.data.category.DefaultCategoryDataset;
+import se.malmin.data.category.SlidingCategoryDataset;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertFalse;

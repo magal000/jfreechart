@@ -44,6 +44,10 @@ import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import org.junit.jupiter.api.Test;
 
+import se.malmin.data.general.DatasetChangeEvent;
+import se.malmin.data.general.DatasetChangeListener;
+import se.malmin.data.general.DefaultHeatMapDataset;
+
 /**
  * Some tests for the {@link DefaultHeatMapDataset} class.
  */

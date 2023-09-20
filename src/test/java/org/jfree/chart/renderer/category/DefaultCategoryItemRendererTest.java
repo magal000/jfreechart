@@ -46,9 +46,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.util.PublicCloneable;
-
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.renderer.category.DefaultCategoryItemRenderer;
+import se.malmin.chart.util.PublicCloneable;
 
 /**
  * Tests for the {@link DefaultCategoryItemRenderer} class.

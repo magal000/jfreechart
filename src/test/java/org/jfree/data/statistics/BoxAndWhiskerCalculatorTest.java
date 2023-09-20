@@ -47,6 +47,9 @@ import java.util.ArrayList;
 import java.util.List;
 import org.junit.jupiter.api.Test;
 
+import se.malmin.data.statistics.BoxAndWhiskerCalculator;
+import se.malmin.data.statistics.BoxAndWhiskerItem;
+
 /**
  * Tests for the {@link BoxAndWhiskerCalculator} class.
  */

@@ -53,12 +53,14 @@ import java.awt.Graphics2D;
 import java.awt.geom.Rectangle2D;
 import java.awt.image.BufferedImage;
 
-import org.jfree.chart.ChartFactory;
-import org.jfree.chart.JFreeChart;
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.plot.CategoryPlot;
-import org.jfree.chart.plot.PlotOrientation;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.ChartFactory;
+import se.malmin.chart.JFreeChart;
+import se.malmin.chart.axis.SubCategoryAxis;
+import se.malmin.chart.plot.CategoryPlot;
+import se.malmin.chart.plot.PlotOrientation;
 
 /**
  * Tests for the {@link SubCategoryAxis} class.

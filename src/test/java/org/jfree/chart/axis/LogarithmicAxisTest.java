@@ -47,9 +47,11 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import java.awt.geom.Rectangle2D;
 
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.ui.RectangleEdge;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.axis.LogarithmicAxis;
+import se.malmin.chart.ui.RectangleEdge;
 
 /**
  * Tests for the {@link LogarithmicAxis} class.
@@ -68,7 +70,7 @@ public class LogarithmicAxisTest {
         }
 
         /* (non-Javadoc)
-         * @see org.jfree.chart.axis.LogarithmicAxis#switchedLog10(double)
+         * @see se.malmin.chart.axis.LogarithmicAxis#switchedLog10(double)
          */
         @Override
         protected double switchedLog10(double val) {

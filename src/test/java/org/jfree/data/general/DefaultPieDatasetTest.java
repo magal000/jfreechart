@@ -38,6 +38,11 @@ package org.jfree.data.general;
 
 import org.jfree.chart.TestUtils;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.data.general.DatasetChangeEvent;
+import se.malmin.data.general.DatasetChangeListener;
+import se.malmin.data.general.DefaultPieDataset;
+
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;
@@ -45,7 +50,7 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 /**
- * Tests for the {@link org.jfree.data.general.PieDataset} class.
+ * Tests for the {@link se.malmin.data.general.PieDataset} class.
  */
 public class DefaultPieDatasetTest implements DatasetChangeListener {
 

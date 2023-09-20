@@ -41,10 +41,14 @@
 
 package org.jfree.data.time;
 
-import org.jfree.chart.date.MonthConstants;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.date.MonthConstants;
+import se.malmin.data.time.Day;
+import se.malmin.data.time.MovingAverage;
+import se.malmin.data.time.TimeSeries;
 
 /**
  * Tests for the {@link MovingAverage} class.

@@ -45,6 +45,8 @@ import org.jfree.chart.TestUtils;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.data.function.LineFunction2D;
 /**
  * Tests for the {@link LineFunction2D} class.
  */

@@ -50,10 +50,11 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 import org.jfree.chart.TestUtils;
-
-import org.jfree.data.general.DatasetChangeEvent;
-import org.jfree.data.general.DatasetChangeListener;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.data.general.DatasetChangeEvent;
+import se.malmin.data.general.DatasetChangeListener;
+import se.malmin.data.statistics.HistogramDataset;
 
 /**
  * Tests for the {@link HistogramDataset} class.

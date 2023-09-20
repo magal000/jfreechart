@@ -44,14 +44,16 @@
 package org.jfree.data.category;
 
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.util.PublicCloneable;
-import org.jfree.data.UnknownKeyException;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.util.PublicCloneable;
+import se.malmin.data.UnknownKeyException;
+import se.malmin.data.category.DefaultCategoryDataset;
 
 /**
  * Tests for the {@link DefaultCategoryDataset} class.

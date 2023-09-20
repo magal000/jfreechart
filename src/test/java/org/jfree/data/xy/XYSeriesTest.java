@@ -41,10 +41,15 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 
 import org.jfree.chart.TestUtils;
 
-import org.jfree.data.general.SeriesException;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.fail;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.data.general.SeriesException;
+import se.malmin.data.xy.DefaultXYDataset;
+import se.malmin.data.xy.XYDataItem;
+import se.malmin.data.xy.XYSeries;
+import se.malmin.data.xy.XYSeriesCollection;
 
 /**
  * Tests for the {@link XYSeries} class.

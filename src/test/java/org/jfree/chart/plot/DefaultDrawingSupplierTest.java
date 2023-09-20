@@ -54,6 +54,8 @@ import java.awt.geom.Rectangle2D;
 import org.jfree.chart.TestUtils;
 import org.junit.jupiter.api.Test;
 
+import se.malmin.chart.plot.DefaultDrawingSupplier;
+
 /**
  * Tests for the {@link DefaultDrawingSupplier} class.
  */

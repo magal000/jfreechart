@@ -50,6 +50,8 @@ import java.util.Collections;
 import java.util.List;
 import org.junit.jupiter.api.Test;
 
+import se.malmin.data.statistics.Statistics;
+
 /**
  * Tests for the {@link Statistics} class.
  */

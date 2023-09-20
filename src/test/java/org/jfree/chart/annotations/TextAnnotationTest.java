@@ -53,10 +53,13 @@ import java.awt.Color;
 import java.awt.Font;
 import java.awt.GradientPaint;
 
-import org.jfree.chart.event.AnnotationChangeEvent;
-import org.jfree.chart.event.AnnotationChangeListener;
-import org.jfree.chart.ui.TextAnchor;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.annotations.CategoryTextAnnotation;
+import se.malmin.chart.annotations.TextAnnotation;
+import se.malmin.chart.event.AnnotationChangeEvent;
+import se.malmin.chart.event.AnnotationChangeListener;
+import se.malmin.chart.ui.TextAnchor;
 
 /**
  * Tests for the {@link TextAnnotation} class.

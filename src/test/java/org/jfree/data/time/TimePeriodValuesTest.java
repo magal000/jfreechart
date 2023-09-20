@@ -49,12 +49,18 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import java.util.Date;
 
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.date.MonthConstants;
-
-import org.jfree.data.general.SeriesChangeEvent;
-import org.jfree.data.general.SeriesChangeListener;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.date.MonthConstants;
+import se.malmin.data.general.SeriesChangeEvent;
+import se.malmin.data.general.SeriesChangeListener;
+import se.malmin.data.time.Day;
+import se.malmin.data.time.RegularTimePeriod;
+import se.malmin.data.time.SimpleTimePeriod;
+import se.malmin.data.time.TimePeriodValue;
+import se.malmin.data.time.TimePeriodValues;
+import se.malmin.data.time.Year;
 
 /**
  * A collection of test cases for the {@link TimePeriodValues} class.

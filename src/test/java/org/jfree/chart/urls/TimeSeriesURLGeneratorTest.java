@@ -48,10 +48,11 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import java.text.SimpleDateFormat;
 
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.util.PublicCloneable;
-
-import org.jfree.data.xy.DefaultXYDataset;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.urls.TimeSeriesURLGenerator;
+import se.malmin.chart.util.PublicCloneable;
+import se.malmin.data.xy.DefaultXYDataset;
 
 /**
  * Tests for the {@link TimeSeriesURLGenerator} class.

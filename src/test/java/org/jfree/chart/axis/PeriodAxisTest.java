@@ -58,18 +58,20 @@ import java.util.SimpleTimeZone;
 import java.util.TimeZone;
 
 import org.jfree.chart.TestUtils;
-
-import org.jfree.chart.event.AxisChangeEvent;
-import org.jfree.chart.event.AxisChangeListener;
-import org.jfree.data.Range;
-import org.jfree.data.time.DateRange;
-import org.jfree.data.time.Day;
-import org.jfree.data.time.Minute;
-import org.jfree.data.time.Month;
-import org.jfree.data.time.Quarter;
-import org.jfree.data.time.Second;
-import org.jfree.data.time.Year;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.axis.PeriodAxis;
+import se.malmin.chart.axis.PeriodAxisLabelInfo;
+import se.malmin.chart.event.AxisChangeEvent;
+import se.malmin.chart.event.AxisChangeListener;
+import se.malmin.data.Range;
+import se.malmin.data.time.DateRange;
+import se.malmin.data.time.Day;
+import se.malmin.data.time.Minute;
+import se.malmin.data.time.Month;
+import se.malmin.data.time.Quarter;
+import se.malmin.data.time.Second;
+import se.malmin.data.time.Year;
 
 /**
  * Tests for the {@link PeriodAxis} class.

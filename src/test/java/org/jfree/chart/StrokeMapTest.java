@@ -47,6 +47,8 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import java.awt.BasicStroke;
 import org.junit.jupiter.api.Test;
 
+import se.malmin.chart.StrokeMap;
+
 /**
  * Some tests for the {@link StrokeMap} class.
  */

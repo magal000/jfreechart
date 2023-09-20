@@ -50,9 +50,16 @@ import java.util.List;
 import java.util.Locale;
 import java.util.TimeZone;
 import org.jfree.chart.TestUtils;
-import org.jfree.data.Range;
-import org.jfree.data.general.DatasetUtils;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.data.Range;
+import se.malmin.data.general.DatasetUtils;
+import se.malmin.data.time.Day;
+import se.malmin.data.time.RegularTimePeriod;
+import se.malmin.data.time.TimePeriodAnchor;
+import se.malmin.data.time.TimeSeries;
+import se.malmin.data.time.TimeSeriesCollection;
+import se.malmin.data.time.Year;
 
 /**
  * A collection of test cases for the {@link TimeSeriesCollection} class.
@@ -295,7 +302,7 @@ public class TimeSeriesCollectionTest {
 
     /**
      * This method provides a check for the bounds calculated using the
-     * {@link DatasetUtils#findDomainBounds(org.jfree.data.xy.XYDataset,
+     * {@link DatasetUtils#findDomainBounds(se.malmin.data.xy.XYDataset,
      * java.util.List, boolean)} method.
      */
     @Test

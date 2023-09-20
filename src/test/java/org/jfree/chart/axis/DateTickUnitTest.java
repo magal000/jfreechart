@@ -47,6 +47,9 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.jfree.chart.TestUtils;
 import org.junit.jupiter.api.Test;
 
+import se.malmin.chart.axis.DateTickUnit;
+import se.malmin.chart.axis.DateTickUnitType;
+
 /**
  * Tests for the {@link DateTickUnit} class.
  */

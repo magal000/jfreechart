@@ -47,9 +47,11 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import java.awt.Rectangle;
 import java.awt.geom.Rectangle2D;
 
-import org.jfree.chart.ChartRenderingInfo;
 import org.jfree.chart.TestUtils;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.ChartRenderingInfo;
+import se.malmin.chart.plot.PlotRenderingInfo;
 
 /**
  * Tests for the {@link PlotRenderingInfo} class.

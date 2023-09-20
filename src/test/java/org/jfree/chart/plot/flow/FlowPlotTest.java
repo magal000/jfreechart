@@ -41,16 +41,19 @@ import java.awt.Font;
 import java.util.Arrays;
 import java.util.List;
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.event.PlotChangeEvent;
-import org.jfree.chart.event.PlotChangeListener;
-import org.jfree.chart.labels.StandardFlowLabelGenerator;
-import org.jfree.chart.ui.VerticalAlignment;
-import org.jfree.data.flow.NodeKey;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.event.PlotChangeEvent;
+import se.malmin.chart.event.PlotChangeListener;
+import se.malmin.chart.labels.StandardFlowLabelGenerator;
+import se.malmin.chart.plot.flow.FlowPlot;
+import se.malmin.chart.ui.VerticalAlignment;
+import se.malmin.data.flow.NodeKey;
 
 /**
  * Tests for the {@link FlowPlot} class.

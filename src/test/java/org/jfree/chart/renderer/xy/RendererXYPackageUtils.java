@@ -36,13 +36,13 @@
 
 package org.jfree.chart.renderer.xy;
 
-import org.jfree.data.xy.DefaultTableXYDataset;
-import org.jfree.data.xy.TableXYDataset;
-import org.jfree.data.xy.XYSeries;
-import org.jfree.data.xy.XYSeriesCollection;
+import se.malmin.data.xy.DefaultTableXYDataset;
+import se.malmin.data.xy.TableXYDataset;
+import se.malmin.data.xy.XYSeries;
+import se.malmin.data.xy.XYSeriesCollection;
 
 /**
- * A collection of tests for the org.jfree.chart.renderer.xy package.
+ * A collection of tests for the se.malmin.chart.renderer.xy package.
  * <P>
  * These tests can be run using JUnit (http://www.junit.org).
  */

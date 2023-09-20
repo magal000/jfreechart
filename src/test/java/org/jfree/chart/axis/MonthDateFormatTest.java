@@ -51,6 +51,8 @@ import java.util.TimeZone;
 import org.jfree.chart.TestUtils;
 import org.junit.jupiter.api.Test;
 
+import se.malmin.chart.axis.MonthDateFormat;
+
 /**
  * Some tests for the {@link MonthDateFormat} class.
  */

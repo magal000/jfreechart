@@ -48,22 +48,24 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 
-import org.jfree.chart.JFreeChart;
-import org.jfree.chart.LegendItem;
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.annotations.XYTextAnnotation;
-import org.jfree.chart.axis.NumberAxis;
-import org.jfree.chart.labels.IntervalXYItemLabelGenerator;
-import org.jfree.chart.labels.StandardXYItemLabelGenerator;
-import org.jfree.chart.labels.StandardXYSeriesLabelGenerator;
-import org.jfree.chart.labels.StandardXYToolTipGenerator;
-import org.jfree.chart.plot.XYPlot;
-import org.jfree.chart.ui.Layer;
-import org.jfree.chart.urls.StandardXYURLGenerator;
-import org.jfree.chart.util.PublicCloneable;
-import org.jfree.data.xy.YIntervalSeries;
-import org.jfree.data.xy.YIntervalSeriesCollection;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.JFreeChart;
+import se.malmin.chart.LegendItem;
+import se.malmin.chart.annotations.XYTextAnnotation;
+import se.malmin.chart.axis.NumberAxis;
+import se.malmin.chart.labels.IntervalXYItemLabelGenerator;
+import se.malmin.chart.labels.StandardXYItemLabelGenerator;
+import se.malmin.chart.labels.StandardXYSeriesLabelGenerator;
+import se.malmin.chart.labels.StandardXYToolTipGenerator;
+import se.malmin.chart.plot.XYPlot;
+import se.malmin.chart.renderer.xy.YIntervalRenderer;
+import se.malmin.chart.ui.Layer;
+import se.malmin.chart.urls.StandardXYURLGenerator;
+import se.malmin.chart.util.PublicCloneable;
+import se.malmin.data.xy.YIntervalSeries;
+import se.malmin.data.xy.YIntervalSeriesCollection;
 
 /**
  * Tests for the {@link YIntervalRenderer} class.

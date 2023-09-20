@@ -56,13 +56,15 @@ import java.awt.geom.Rectangle2D;
 import java.awt.image.BufferedImage;
 import java.util.Date;
 
-import org.jfree.chart.ChartFactory;
-import org.jfree.chart.JFreeChart;
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.util.PublicCloneable;
-import org.jfree.data.statistics.BoxAndWhiskerItem;
-import org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.ChartFactory;
+import se.malmin.chart.JFreeChart;
+import se.malmin.chart.renderer.xy.XYBoxAndWhiskerRenderer;
+import se.malmin.chart.util.PublicCloneable;
+import se.malmin.data.statistics.BoxAndWhiskerItem;
+import se.malmin.data.statistics.DefaultBoxAndWhiskerXYDataset;
 
 /**
  * Tests for the {@link XYBoxAndWhiskerRenderer} class.

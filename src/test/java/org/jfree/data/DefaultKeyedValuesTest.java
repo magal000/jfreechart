@@ -35,7 +35,7 @@
  * Changes
  * -------
  * 05-Mar-2003 : Version 1 (DG);
- * 27-Aug-2003 : Moved SortOrder from org.jfree.data --> org.jfree.util (DG);
+ * 27-Aug-2003 : Moved SortOrder from se.malmin.data --> org.jfree.util (DG);
  * 31-Jul-2006 : Added test for new clear() method (DG);
  * 01-Aug-2006 : Extended testGetIndex() method (DG);
  * 30-Apr-2007 : Added some new tests (DG);
@@ -52,8 +52,11 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertNull;
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.util.SortOrder;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.util.SortOrder;
+import se.malmin.data.DefaultKeyedValues;
+import se.malmin.data.UnknownKeyException;
 
 /**
  * Tests for the {@link DefaultKeyedValues} class.

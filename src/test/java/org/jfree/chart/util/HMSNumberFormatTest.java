@@ -43,6 +43,8 @@ package org.jfree.chart.util;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 
+import se.malmin.chart.util.HMSNumberFormat;
+
 /**
  * Tests for the {@link HMSNumberFormat} class.
  */

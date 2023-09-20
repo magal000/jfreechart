@@ -47,6 +47,11 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.jfree.chart.TestUtils;
 import org.junit.jupiter.api.Test;
 
+import se.malmin.chart.block.BlockContainer;
+import se.malmin.chart.block.ColumnArrangement;
+import se.malmin.chart.block.EmptyBlock;
+import se.malmin.chart.block.FlowArrangement;
+
 /**
  * Tests for the {@link BlockContainer} class.
  */

@@ -50,6 +50,9 @@ import java.util.TimeZone;
 import org.jfree.chart.TestUtils;
 import org.junit.jupiter.api.Test;
 
+import se.malmin.data.time.TimeTableXYDataset;
+import se.malmin.data.time.Year;
+
 /**
  * A collection of test cases for the {@link TimeTableXYDataset} class.
  */

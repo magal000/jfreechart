@@ -53,11 +53,13 @@ import java.awt.font.TextAttribute;
 import java.awt.geom.Line2D;
 import java.awt.geom.Rectangle2D;
 import java.text.AttributedString;
-import org.jfree.chart.ui.GradientPaintTransformType;
-import org.jfree.chart.ui.StandardGradientPaintTransformer;
-
 
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.LegendItem;
+import se.malmin.chart.ui.GradientPaintTransformType;
+import se.malmin.chart.ui.StandardGradientPaintTransformer;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertSame;

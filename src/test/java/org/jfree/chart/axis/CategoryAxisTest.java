@@ -53,6 +53,9 @@ import java.awt.GradientPaint;
 import org.jfree.chart.TestUtils;
 import org.junit.jupiter.api.Test;
 
+import se.malmin.chart.axis.CategoryAxis;
+import se.malmin.chart.axis.CategoryLabelPositions;
+
 /**
  * Tests for the {@link CategoryAxis} class.
  */

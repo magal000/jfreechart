@@ -44,11 +44,13 @@ import java.awt.Graphics2D;
 import java.awt.geom.Rectangle2D;
 import java.awt.image.BufferedImage;
 
-import org.jfree.chart.plot.MeterInterval;
-import org.jfree.chart.plot.MeterPlot;
-import org.jfree.data.Range;
-import org.jfree.data.general.DefaultValueDataset;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.JFreeChart;
+import se.malmin.chart.plot.MeterInterval;
+import se.malmin.chart.plot.MeterPlot;
+import se.malmin.data.Range;
+import se.malmin.data.general.DefaultValueDataset;
 
 /**
  * Miscellaneous checks for meter charts.

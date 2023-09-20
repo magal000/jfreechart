@@ -35,7 +35,7 @@
  * Changes
  * -------
  * 30-Oct-2003 : Version 1 (DG);
- * 19-Feb-2004 : Moved to org.jfree.chart.labels.junit (DG);
+ * 19-Feb-2004 : Moved to se.malmin.chart.labels.junit (DG);
  *
  */
 
@@ -45,6 +45,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.jfree.chart.TestUtils;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.labels.ItemLabelPosition;
 
 /**
  * Tests for the {@link ItemLabelPosition} class.

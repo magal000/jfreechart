@@ -51,11 +51,12 @@ import java.awt.Font;
 import java.awt.GradientPaint;
 import java.text.NumberFormat;
 import org.jfree.chart.TestUtils;
-
-import org.jfree.chart.labels.StandardCrosshairLabelGenerator;
-import org.jfree.chart.ui.RectangleAnchor;
-import org.jfree.chart.util.PublicCloneable;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.labels.StandardCrosshairLabelGenerator;
+import se.malmin.chart.plot.Crosshair;
+import se.malmin.chart.ui.RectangleAnchor;
+import se.malmin.chart.util.PublicCloneable;
 
 /**
  * Tests for the {@link Crosshair} class.

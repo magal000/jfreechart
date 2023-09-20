@@ -50,10 +50,11 @@ import java.awt.Color;
 import java.awt.GradientPaint;
 
 import org.jfree.chart.TestUtils;
-
-import org.jfree.chart.event.MarkerChangeEvent;
-import org.jfree.chart.event.MarkerChangeListener;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.event.MarkerChangeEvent;
+import se.malmin.chart.event.MarkerChangeListener;
+import se.malmin.chart.plot.CategoryMarker;
 
 /**
  * Some tests for the {@link CategoryMarker} class.

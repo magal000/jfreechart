@@ -47,6 +47,10 @@ import java.awt.geom.Line2D;
 import java.awt.geom.Rectangle2D;
 
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.LegendItem;
+import se.malmin.chart.LegendItemCollection;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertSame;

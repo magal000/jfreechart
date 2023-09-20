@@ -50,6 +50,8 @@ import java.util.Date;
 import org.jfree.chart.TestUtils;
 import org.junit.jupiter.api.Test;
 
+import se.malmin.data.time.DateRange;
+
 /**
  * Some tests for the {@link DateRange} class.
  */

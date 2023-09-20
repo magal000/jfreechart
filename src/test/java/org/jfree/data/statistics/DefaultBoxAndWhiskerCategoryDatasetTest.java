@@ -51,10 +51,12 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import java.util.ArrayList;
 
 import org.jfree.chart.TestUtils;
-
-import org.jfree.data.Range;
-import org.jfree.data.UnknownKeyException;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.data.Range;
+import se.malmin.data.UnknownKeyException;
+import se.malmin.data.statistics.BoxAndWhiskerItem;
+import se.malmin.data.statistics.DefaultBoxAndWhiskerCategoryDataset;
 
 /**
  * Tests for the {@link DefaultBoxAndWhiskerCategoryDataset} class.

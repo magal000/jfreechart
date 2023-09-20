@@ -48,6 +48,8 @@ import org.jfree.chart.TestUtils;
 
 import org.junit.jupiter.api.Test;
 
+import se.malmin.data.general.DefaultKeyedValueDataset;
+
 /**
  * Tests for the {@link DefaultKeyedValueDataset} class.
  */

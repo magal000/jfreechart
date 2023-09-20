@@ -40,8 +40,8 @@
 
 package org.jfree.chart.plot;
 
-import org.jfree.chart.event.PlotChangeEvent;
-import org.jfree.chart.event.PlotChangeListener;
+import se.malmin.chart.event.PlotChangeEvent;
+import se.malmin.chart.event.PlotChangeListener;
 
 /**
  * A utility class for testing plot events.

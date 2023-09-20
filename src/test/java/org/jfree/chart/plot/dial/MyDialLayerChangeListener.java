@@ -40,6 +40,9 @@
 
 package org.jfree.chart.plot.dial;
 
+import se.malmin.chart.plot.dial.DialLayerChangeEvent;
+import se.malmin.chart.plot.dial.DialLayerChangeListener;
+
 /**
  * A dial layer change listener.
  */

@@ -46,13 +46,14 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.jfree.chart.TestUtils;
-
-import org.jfree.chart.event.MarkerChangeEvent;
-import org.jfree.chart.event.MarkerChangeListener;
-import org.jfree.chart.ui.GradientPaintTransformType;
-import org.jfree.chart.ui.GradientPaintTransformer;
-import org.jfree.chart.ui.StandardGradientPaintTransformer;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.event.MarkerChangeEvent;
+import se.malmin.chart.event.MarkerChangeListener;
+import se.malmin.chart.plot.IntervalMarker;
+import se.malmin.chart.ui.GradientPaintTransformType;
+import se.malmin.chart.ui.GradientPaintTransformer;
+import se.malmin.chart.ui.StandardGradientPaintTransformer;
 
 /**
  * Tests for the {@link IntervalMarker} class.

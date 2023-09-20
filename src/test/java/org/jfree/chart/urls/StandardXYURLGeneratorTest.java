@@ -45,9 +45,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.util.PublicCloneable;
-
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.urls.StandardXYURLGenerator;
+import se.malmin.chart.util.PublicCloneable;
 
 /**
  * Tests for the {@link StandardXYURLGenerator} class.

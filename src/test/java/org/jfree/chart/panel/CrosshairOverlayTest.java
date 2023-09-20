@@ -49,9 +49,10 @@ import java.awt.Color;
 import java.awt.GradientPaint;
 
 import org.jfree.chart.TestUtils;
-
-import org.jfree.chart.plot.Crosshair;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.panel.CrosshairOverlay;
+import se.malmin.chart.plot.Crosshair;
 
 /**
  * Tests for the {@link CrosshairOverlay} class.

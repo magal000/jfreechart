@@ -51,13 +51,19 @@ import java.util.List;
 
 import javax.swing.event.CaretListener;
 
-import org.jfree.chart.axis.NumberAxis;
-import org.jfree.chart.event.ChartChangeEvent;
-import org.jfree.chart.event.ChartChangeListener;
-import org.jfree.chart.plot.PlotOrientation;
-import org.jfree.chart.plot.XYPlot;
-import org.jfree.data.xy.DefaultXYDataset;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.ChartFactory;
+import se.malmin.chart.ChartMouseEvent;
+import se.malmin.chart.ChartMouseListener;
+import se.malmin.chart.ChartPanel;
+import se.malmin.chart.JFreeChart;
+import se.malmin.chart.axis.NumberAxis;
+import se.malmin.chart.event.ChartChangeEvent;
+import se.malmin.chart.event.ChartChangeListener;
+import se.malmin.chart.plot.PlotOrientation;
+import se.malmin.chart.plot.XYPlot;
+import se.malmin.data.xy.DefaultXYDataset;
 
 /**
  * Tests for the {@link ChartPanel} class.

@@ -49,6 +49,9 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Test;
 
+import se.malmin.data.gantt.Task;
+import se.malmin.data.gantt.TaskSeries;
+
 /**
  * Tests for the {@link TaskSeries} class.
  */

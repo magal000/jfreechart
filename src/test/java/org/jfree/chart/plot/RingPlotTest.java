@@ -48,6 +48,9 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Test;
 
+import se.malmin.chart.plot.CenterTextMode;
+import se.malmin.chart.plot.RingPlot;
+
 import java.awt.BasicStroke;
 import java.awt.Color;
 import java.awt.Font;

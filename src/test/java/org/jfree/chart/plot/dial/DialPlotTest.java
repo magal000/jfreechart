@@ -46,10 +46,16 @@ import java.awt.Color;
 import java.awt.GradientPaint;
 
 import org.jfree.chart.TestUtils;
-
-import org.jfree.chart.event.PlotChangeEvent;
-import org.jfree.chart.event.PlotChangeListener;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.event.PlotChangeEvent;
+import se.malmin.chart.event.PlotChangeListener;
+import se.malmin.chart.plot.dial.ArcDialFrame;
+import se.malmin.chart.plot.dial.DialBackground;
+import se.malmin.chart.plot.dial.DialCap;
+import se.malmin.chart.plot.dial.DialPlot;
+import se.malmin.chart.plot.dial.StandardDialFrame;
+import se.malmin.chart.plot.dial.StandardDialScale;
 
 /**
  * Tests for the {@link DialPlot} class.

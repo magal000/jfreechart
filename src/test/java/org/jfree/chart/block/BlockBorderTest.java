@@ -49,10 +49,11 @@ import java.awt.Color;
 import java.awt.GradientPaint;
 
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.ui.RectangleInsets;
-import org.jfree.chart.util.UnitType;
-
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.block.BlockBorder;
+import se.malmin.chart.ui.RectangleInsets;
+import se.malmin.chart.util.UnitType;
 
 /**
  * Tests for the {@link BlockBorder} class.

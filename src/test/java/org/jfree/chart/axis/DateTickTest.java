@@ -47,9 +47,11 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import java.util.Date;
 
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.ui.TextAnchor;
-
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.axis.DateTick;
+import se.malmin.chart.axis.TickType;
+import se.malmin.chart.ui.TextAnchor;
 
 /**
  * Tests for the {@link DateTick} class.

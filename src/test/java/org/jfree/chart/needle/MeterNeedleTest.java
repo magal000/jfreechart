@@ -49,6 +49,9 @@ import java.awt.GradientPaint;
 import java.awt.Stroke;
 import org.junit.jupiter.api.Test;
 
+import se.malmin.chart.needle.LineNeedle;
+import se.malmin.chart.needle.MeterNeedle;
+
 
 /**
  * Tests for the {@link MeterNeedle} class.

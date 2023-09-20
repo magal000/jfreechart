@@ -51,19 +51,21 @@ import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.jfree.chart.ChartRenderingInfo;
-import org.jfree.chart.JFreeChart;
-import org.jfree.chart.LegendItem;
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.axis.CategoryAxis;
-import org.jfree.chart.axis.NumberAxis;
-import org.jfree.chart.plot.CategoryPlot;
-import org.jfree.chart.plot.PlotOrientation;
-import org.jfree.chart.util.PublicCloneable;
-import org.jfree.data.category.DefaultCategoryDataset;
-import org.jfree.data.statistics.BoxAndWhiskerItem;
-import org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.ChartRenderingInfo;
+import se.malmin.chart.JFreeChart;
+import se.malmin.chart.LegendItem;
+import se.malmin.chart.axis.CategoryAxis;
+import se.malmin.chart.axis.NumberAxis;
+import se.malmin.chart.plot.CategoryPlot;
+import se.malmin.chart.plot.PlotOrientation;
+import se.malmin.chart.renderer.category.BoxAndWhiskerRenderer;
+import se.malmin.chart.util.PublicCloneable;
+import se.malmin.data.category.DefaultCategoryDataset;
+import se.malmin.data.statistics.BoxAndWhiskerItem;
+import se.malmin.data.statistics.DefaultBoxAndWhiskerCategoryDataset;
 
 /**
  * Tests for the {@link BoxAndWhiskerRenderer} class.

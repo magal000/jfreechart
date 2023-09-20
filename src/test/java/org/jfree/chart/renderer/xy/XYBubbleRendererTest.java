@@ -47,14 +47,16 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 
-import org.jfree.chart.JFreeChart;
-import org.jfree.chart.LegendItem;
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.axis.NumberAxis;
-import org.jfree.chart.plot.XYPlot;
-import org.jfree.chart.util.PublicCloneable;
-import org.jfree.data.xy.DefaultXYZDataset;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.JFreeChart;
+import se.malmin.chart.LegendItem;
+import se.malmin.chart.axis.NumberAxis;
+import se.malmin.chart.plot.XYPlot;
+import se.malmin.chart.renderer.xy.XYBubbleRenderer;
+import se.malmin.chart.util.PublicCloneable;
+import se.malmin.data.xy.DefaultXYZDataset;
 
 /**
  * Tests for the {@link XYBubbleRenderer} class.

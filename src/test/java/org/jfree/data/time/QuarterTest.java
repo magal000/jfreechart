@@ -62,6 +62,11 @@ import org.jfree.chart.TestUtils;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import se.malmin.data.time.Quarter;
+import se.malmin.data.time.RegularTimePeriod;
+import se.malmin.data.time.TimePeriodFormatException;
+import se.malmin.data.time.Year;
+
 /**
  * Tests for the {link Quarter} class.
  */

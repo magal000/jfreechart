@@ -48,21 +48,24 @@ import java.awt.Graphics2D;
 import java.awt.geom.Rectangle2D;
 import java.awt.image.BufferedImage;
 
-import org.jfree.chart.axis.ValueAxis;
-import org.jfree.chart.event.ChartChangeEvent;
-import org.jfree.chart.event.ChartChangeListener;
-import org.jfree.chart.labels.CategoryToolTipGenerator;
-import org.jfree.chart.labels.StandardCategoryToolTipGenerator;
-import org.jfree.chart.plot.CategoryPlot;
-import org.jfree.chart.plot.PlotOrientation;
-import org.jfree.chart.renderer.category.CategoryItemRenderer;
-import org.jfree.chart.urls.CategoryURLGenerator;
-import org.jfree.chart.urls.StandardCategoryURLGenerator;
-import org.jfree.data.Range;
-import org.jfree.data.category.CategoryDataset;
-import org.jfree.data.general.DatasetUtils;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import se.malmin.chart.ChartFactory;
+import se.malmin.chart.JFreeChart;
+import se.malmin.chart.axis.ValueAxis;
+import se.malmin.chart.event.ChartChangeEvent;
+import se.malmin.chart.event.ChartChangeListener;
+import se.malmin.chart.labels.CategoryToolTipGenerator;
+import se.malmin.chart.labels.StandardCategoryToolTipGenerator;
+import se.malmin.chart.plot.CategoryPlot;
+import se.malmin.chart.plot.PlotOrientation;
+import se.malmin.chart.renderer.category.CategoryItemRenderer;
+import se.malmin.chart.urls.CategoryURLGenerator;
+import se.malmin.chart.urls.StandardCategoryURLGenerator;
+import se.malmin.data.Range;
+import se.malmin.data.category.CategoryDataset;
+import se.malmin.data.general.DatasetUtils;
 
 /**
  * Some tests for a stacked area chart.

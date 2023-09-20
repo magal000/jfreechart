@@ -43,6 +43,9 @@ package org.jfree.chart.imagemap;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 
+import se.malmin.chart.imagemap.DynamicDriveToolTipTagFragmentGenerator;
+import se.malmin.chart.imagemap.OverLIBToolTipTagFragmentGenerator;
+
 /**
  * Tests for the {@link DynamicDriveToolTipTagFragmentGenerator} class.
  */

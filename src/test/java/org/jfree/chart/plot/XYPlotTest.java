@@ -59,6 +59,40 @@ import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 import org.junit.jupiter.api.Test;
 
+import se.malmin.chart.ChartFactory;
+import se.malmin.chart.JFreeChart;
+import se.malmin.chart.LegendItem;
+import se.malmin.chart.LegendItemCollection;
+import se.malmin.chart.annotations.XYTextAnnotation;
+import se.malmin.chart.axis.AxisLocation;
+import se.malmin.chart.axis.DateAxis;
+import se.malmin.chart.axis.NumberAxis;
+import se.malmin.chart.date.MonthConstants;
+import se.malmin.chart.event.MarkerChangeListener;
+import se.malmin.chart.labels.StandardXYToolTipGenerator;
+import se.malmin.chart.plot.IntervalMarker;
+import se.malmin.chart.plot.Marker;
+import se.malmin.chart.plot.PlotOrientation;
+import se.malmin.chart.plot.ValueMarker;
+import se.malmin.chart.plot.XYPlot;
+import se.malmin.chart.renderer.xy.DefaultXYItemRenderer;
+import se.malmin.chart.renderer.xy.StandardXYItemRenderer;
+import se.malmin.chart.renderer.xy.XYBarRenderer;
+import se.malmin.chart.renderer.xy.XYItemRenderer;
+import se.malmin.chart.renderer.xy.XYLineAndShapeRenderer;
+import se.malmin.chart.ui.Layer;
+import se.malmin.chart.ui.RectangleInsets;
+import se.malmin.chart.util.DefaultShadowGenerator;
+import se.malmin.data.Range;
+import se.malmin.data.time.Day;
+import se.malmin.data.time.TimeSeries;
+import se.malmin.data.time.TimeSeriesCollection;
+import se.malmin.data.xy.DefaultXYDataset;
+import se.malmin.data.xy.IntervalXYDataset;
+import se.malmin.data.xy.XYDataset;
+import se.malmin.data.xy.XYSeries;
+import se.malmin.data.xy.XYSeriesCollection;
+
 import java.awt.BasicStroke;
 import java.awt.Color;
 import java.awt.GradientPaint;
@@ -70,35 +104,7 @@ import java.awt.image.BufferedImage;
 import java.util.Arrays;
 import java.util.List;
 
-import org.jfree.chart.ChartFactory;
-import org.jfree.chart.JFreeChart;
-import org.jfree.chart.LegendItem;
-import org.jfree.chart.LegendItemCollection;
 import org.jfree.chart.TestUtils;
-import org.jfree.chart.annotations.XYTextAnnotation;
-import org.jfree.chart.axis.AxisLocation;
-import org.jfree.chart.axis.DateAxis;
-import org.jfree.chart.axis.NumberAxis;
-import org.jfree.chart.date.MonthConstants;
-import org.jfree.chart.event.MarkerChangeListener;
-import org.jfree.chart.labels.StandardXYToolTipGenerator;
-import org.jfree.chart.renderer.xy.DefaultXYItemRenderer;
-import org.jfree.chart.renderer.xy.StandardXYItemRenderer;
-import org.jfree.chart.renderer.xy.XYBarRenderer;
-import org.jfree.chart.renderer.xy.XYItemRenderer;
-import org.jfree.chart.renderer.xy.XYLineAndShapeRenderer;
-import org.jfree.chart.ui.Layer;
-import org.jfree.chart.ui.RectangleInsets;
-import org.jfree.chart.util.DefaultShadowGenerator;
-import org.jfree.data.Range;
-import org.jfree.data.time.Day;
-import org.jfree.data.time.TimeSeries;
-import org.jfree.data.time.TimeSeriesCollection;
-import org.jfree.data.xy.DefaultXYDataset;
-import org.jfree.data.xy.IntervalXYDataset;
-import org.jfree.data.xy.XYDataset;
-import org.jfree.data.xy.XYSeries;
-import org.jfree.data.xy.XYSeriesCollection;
 
 /**
  * Tests for the {@link XYPlot} class.
@@ -742,7 +748,7 @@ public class XYPlotTest {
 
     /**
      * Problem to reproduce a bug in serialization.  The bug (first reported
-     * against the {@link org.jfree.chart.plot.CategoryPlot} class) is a null
+     * against the {@link se.malmin.chart.plot.CategoryPlot} class) is a null
      * pointer exception that occurs when drawing a plot after deserialization.
      * It is caused by four temporary storage structures (axesAtTop,
      * axesAtBottom, axesAtLeft and axesAtRight - all initialized as empty

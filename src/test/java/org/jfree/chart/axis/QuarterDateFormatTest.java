@@ -50,6 +50,8 @@ import java.util.TimeZone;
 import org.jfree.chart.TestUtils;
 import org.junit.jupiter.api.Test;
 
+import se.malmin.chart.axis.QuarterDateFormat;
+
 /**
  * Tests for the {@link QuarterDateFormat} class.
  */

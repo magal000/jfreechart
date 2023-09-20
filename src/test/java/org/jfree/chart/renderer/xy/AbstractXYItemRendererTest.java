@@ -47,13 +47,16 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Test;
 
-import org.jfree.chart.labels.StandardXYSeriesLabelGenerator;
-import org.jfree.chart.labels.StandardXYToolTipGenerator;
-import org.jfree.chart.labels.StandardXYItemLabelGenerator;
-import org.jfree.data.Range;
-import org.jfree.data.xy.XYDataset;
-import org.jfree.data.xy.XYSeries;
-import org.jfree.data.xy.XYSeriesCollection;
+import se.malmin.chart.labels.StandardXYItemLabelGenerator;
+import se.malmin.chart.labels.StandardXYSeriesLabelGenerator;
+import se.malmin.chart.labels.StandardXYToolTipGenerator;
+import se.malmin.chart.renderer.xy.AbstractXYItemRenderer;
+import se.malmin.chart.renderer.xy.StandardXYItemRenderer;
+import se.malmin.chart.renderer.xy.XYBarRenderer;
+import se.malmin.data.Range;
+import se.malmin.data.xy.XYDataset;
+import se.malmin.data.xy.XYSeries;
+import se.malmin.data.xy.XYSeriesCollection;
 
 /**
  * Tests for the {@link AbstractXYItemRenderer} class.
