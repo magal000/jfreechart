@@ -7,7 +7,6 @@
     <modelVersion>4.0.0</modelVersion>
 
     <name>JFreeChart</name>
-
     <artifactId>jfreechart</artifactId>
     <groupId>se.malmin</groupId>
     <version>1.5.3</version>
@@ -20,6 +19,15 @@
     <inceptionYear>2001</inceptionYear>
 
     <description>
+		This is a fork of jfreechart. The purpose is to the build it with the Java module sytem and Java 17. 
+		This to be able to use it in building java applications with reduced runtimes. 
+		Three servlet classes have been removed as they depended on the automatic module servlet.api.
+		No functionality has beed added. All credit to the original project. 
+		Introduzing the module system has broken the unit tests. Everything seems to work as expected though.
+		If you stumble upon this, then it might be useful if you need to use jfreechart in a Java module application.
+		This project will not be maintained though. It looks like jfreechart is adopting the module system and that it might be released soon.
+		jfreechart with Java 11 and modules for java fx applications was recently released.
+		
         JFreeChart is a class library, written in Java, for generating charts. 
         Utilising the Java2D API, it supports a wide range of chart types including
         bar charts, pie charts, line charts, XY-plots, time series plots, Sankey charts
@@ -38,10 +46,15 @@
 
     <developers>
       <developer>
+		<!-- original developer-->
         <name>David Gilbert</name>
         <email>dave@jfree.org</email>
         <organization>Object Refinery Limited</organization>
         <organizationUrl>http://www.object-refinery.com</organizationUrl>
+      </developer>
+      <developer>
+		<!-- I have just forked this and built it with JDK 17 and modules-->
+        <name>M Almin</name>
       </developer>
     </developers>
 
@@ -68,12 +81,16 @@
         </dependency>
     </dependencies>
 
-    <distributionManagement>
-        <snapshotRepository>
-          <id>ossrh</id>
-          <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-        </snapshotRepository>
-    </distributionManagement>    
+	<distributionManagement>
+		<snapshotRepository>
+			<id>ossrh</id>
+			<url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
+		</snapshotRepository>
+		<repository>
+			<id>ossrh</id>
+			<url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+		</repository>
+	</distributionManagement>   
     
     <build>
         <testSourceDirectory>src/test/java</testSourceDirectory>
